@@ -1,9 +1,10 @@
 <div class="popup-search-box d-none d-lg-block">
     <button class="searchClose"><i class="fal fa-times"></i></button>
-    <form action="#">
-        <input type="text" placeholder="Que recherchez-vous ?">
+    <form action="{{ route('publications.search') }}">
+        <input type="text" name="search" value="{{ isset($search) ? $search : '' }}" placeholder="Que recherchez-vous ?">
         <button type="submit"><i class="fal fa-search"></i></button>
     </form>
+
 </div>
 
 {{-- Mobile Menu --}}
@@ -59,7 +60,7 @@
                                 </a>
                             </li>
                         @endforeach
-                        
+
                     </ul>
                 </li>
                 <li>
@@ -69,7 +70,7 @@
                 <li>
                     <a href="https://monespace.ordremedecinsbenin.bj/" class='btn-mon-espace' target="_blank">Mon espace</a>
                 </li>
-                
+
             </ul>
         </div>
     </div>
@@ -134,7 +135,7 @@
                                                 </a>
                                             </li>
                                         @endforeach
-                                        
+
                                     </ul>
                                 </li>
                                 <li>
@@ -148,7 +149,7 @@
                             </ul>
                         </nav>
                     </div>
-                    
+
 
 
                     <div class="col-auto">
