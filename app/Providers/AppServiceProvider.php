@@ -8,6 +8,7 @@ use App\Observers\ArticleObserver;
 use App\Observers\CategoryObserver;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Pagination\Paginator;
+use Illuminate\Support\Facades\Schema;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -27,5 +28,6 @@ class AppServiceProvider extends ServiceProvider
         Category::observe(CategoryObserver::class);
         Article::observe(ArticleObserver::class);
         Paginator::useBootstrap();
+        Schema::defaultStringLength(191);
     }
 }
