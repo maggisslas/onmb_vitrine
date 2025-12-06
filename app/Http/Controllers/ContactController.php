@@ -29,7 +29,7 @@ class ContactController extends Controller
             Mail::to(config("mail.from.address"))->send(new ContactMail($request) , $request);
             return back()->with('success_contact' , "Merci pour nous avoir contacter! Nous vous répondrons dans un délai assez raisonnable.");
         } catch (\Throwable $th) {
-            dd($th);
+            // dd($th);
             return back()->with('error_contact' , "Nous n'arrivons pas à envoyer votre demande. Veuillez rééssayer plustard.");
         }
 

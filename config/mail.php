@@ -113,7 +113,7 @@ return [
     'from' => [
         'address' => env('MAIL_FROM_ADDRESS', 'infos@ordremedecinsbenin.bj'),
         'name' => env('MAIL_FROM_NAME', 'ONMB'),
-        'admin_mail' => env('MAIL_ADMIN', 'infos@ordremedecinsbenin.bj')
+        'admin_mail' => env('MAIL_ADMIN', 'onmb1973_2006@yahoo.fr')
     ],
 
 ];
