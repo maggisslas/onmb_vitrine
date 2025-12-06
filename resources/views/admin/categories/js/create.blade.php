@@ -1,0 +1,72 @@
+
+<script>
+
+    // Initialisation des différents uploaders
+    var action_reset =  ['.btn_to_add']
+    initFileUploader("picture", "dropZone", "pictureList" , 411 , 370 , action_reset);
+    initFileUploader("pictureUpdate", "dropZoneUpdate", "pictureListUpdate" , 411 , 370 , action_reset);
+
+
+    $('#category-form').on('submit', function(e) {
+        e.preventDefault(); // Empêche le rechargement de la page
+
+        // Récupération des données du formulaire
+        var formData = new FormData(this);
+        // console.log(formData)
+
+        $('#createBtnForm').attr('disabled' , 'disabled')
+        $('#createBtnForm').html('<i class="fa fa-spin fa-spinner"></i> Engeristrer')
+
+        // Envoi de la requête Ajax
+        $.ajax({
+            url: $(this).attr('action'), // Récupère l'URL spécifiée dans l'attribut "action"
+            type: $(this).attr('method'), // Récupère la méthode spécifiée dans l'attribut "method"
+            data: formData,
+            processData: false,  // **Ne pas traiter les données (important pour FormData)**
+            contentType: false,  // **Ne pas définir le type de contenu (important pour FormData)**
+            success: function(response) {
+
+                if (response.success) {
+
+                    message_alert('success' , response.message , 3000)
+                    $('#addModal').modal('hide')
+                    $('#category-form')[0].reset(); // Réinitialiser le formulaire
+                    $('.error-message').remove(); // Supprimer les anciens messages d'erreur
+                    var p = "{{ $page }}"
+                    load_table(p)
+
+                }else{
+                    message_alert('error' , response.message , 3000)
+                }
+
+                $('#createBtnForm').removeAttr('disabled')
+                $('#createBtnForm').html('<i class="fa fa-save"></i> Engeristrer')
+
+            },
+            error: function(err) {
+
+                if (err.status === 422) { // Laravel retourne 422 pour les erreurs de validation
+                    var errors = err.responseJSON.errors;
+
+                    // Afficher les erreurs sous chaque champ
+                    for (var field in errors) {
+                        var errorMessage = errors[field][0]; // Récupérer le premier message d'erreur
+
+                        // Ajouter un message sous l'input concerné
+                        var input = $('[name="' + field + '"]');
+                            input.next('.error-message').remove();
+                            input.after('<span class="error-message text-danger">' + errorMessage + '</span>');
+                    }
+                } else {
+                    console.log("Erreur inconnue :", err);
+                }
+
+                $('#createBtnForm').removeAttr('disabled')
+                $('#createBtnForm').html('<i class="fa fa-save"></i> Engeristrer')
+
+            }
+        });
+    });
+
+
+</script>
