@@ -148,7 +148,7 @@
                             </div>
                         </div>
                         <div>
-                            <a href="about.html" class="th-btn btn-p btn-shadow">Apprendre d'avantage</a>
+                            <a href="{{ route('ordre.presentation') }}" class="th-btn btn-p btn-shadow">Apprendre d'avantage</a>
                         </div>
                     </div>
                 </div>
@@ -196,8 +196,8 @@
                                 </div>
                                 <div class="box-content">
                                     <p class="box-doctor">1</p>
-                                    <h3 class="box-title"><a href="service-details.html">Code de déontologie</a></h3>
-                                    <a href="service-details.html" class="th-btn btn-sm style2 btn-w">En savoir plus</a>
+                                    <h3 class="box-title"><a href="{{ route('ordre.code_deontologie') }}">Code de déontologie</a></h3>
+                                    <a href="{{ route('ordre.code_deontologie') }}" class="th-btn btn-sm style2 btn-w">En savoir plus</a>
                                 </div>
                             </div>
                         </div>
@@ -209,8 +209,8 @@
                                 </div>
                                 <div class="box-content">
                                     <p class="box-doctor">2</p>
-                                    <h3 class="box-title"><a href="service-details.html">Actes et autorisations</a></h3>
-                                    <a href="service-details.html" class="th-btn btn-sm style2 btn-w">En savoir plus</a>
+                                    <h3 class="box-title"><a href="{{ route('ordre.actes_autorisations') }}">Actes et autorisations</a></h3>
+                                    <a href="{{ route('ordre.actes_autorisations') }}" class="th-btn btn-sm style2 btn-w">En savoir plus</a>
                                 </div>
                             </div>
                         </div>
@@ -222,8 +222,8 @@
                                 </div>
                                 <div class="box-content">
                                     <p class="box-doctor">3</p>
-                                    <h3 class="box-title"><a href="service-details.html">Comment s'inscrire à l'ONMB</a></h3>
-                                    <a href="service-details.html" class="th-btn btn-sm style2 btn-w">En savoir plus</a>
+                                    <h3 class="box-title"><a href="{{ route('ordre.presentation') }}">Comment s'inscrire à l'ONMB</a></h3>
+                                    <a href="{{ route('ordre.presentation') }}" class="th-btn btn-sm style2 btn-w">En savoir plus</a>
                                 </div>
                             </div>
                         </div>
@@ -235,8 +235,8 @@
                                 </div>
                                 <div class="box-content">
                                     <p class="box-doctor">4</p>
-                                    <h3 class="box-title"><a href="service-details.html">Payer ma cotisation</a></h3>
-                                    <a href="service-details.html" class="th-btn btn-sm style2 btn-w">En savoir plus</a>
+                                    <h3 class="box-title"><a href="https://monespace.ordremedecinsbenin.bj" target="_blank">Payer ma cotisation</a></h3>
+                                    <a href="https://monespace.ordremedecinsbenin.bj" target="_blank" class="th-btn btn-sm style2 btn-w">En savoir plus</a>
                                 </div>
                             </div>
                         </div>
@@ -268,7 +268,7 @@
                         </p>
                     </div>
                     <div class="btn-group justify-content-center">
-                        <a href="contact.html" class="th-btn btn-w">Payer ma cotisation</a>
+                        <a href="https://monespace.ordremedecinsbenin.bj" target="_blank" class="th-btn btn-w">Payer ma cotisation</a>
                     </div>
                 </div>
 
@@ -445,8 +445,20 @@
                             <img src="assets/img/onmb/nos-seances-2.jpg" alt="Image">
                         </div>
                     </div>
-                    <form action="mail.php" method="POST" class="appointment-form">
+                    <form action="{{ route('contact.send') }}" method="POST" class="appointment-form">
+                        @csrf
                         <h4 class="form-title">Nous contactez</h4>
+                            @if(session('error_contact'))
+                                <div class="alert alert-danger">
+                                    {{ session('error_contact') }}
+                                </div>
+                            @endif
+
+                            @if(session('success_contact'))
+                                <div class="alert alert-success">
+                                    {{ session('success_contact') }}
+                                </div>
+                            @endif
                         <div class="row">
                             <div class="form-group col-12">
                                 <label for="name">Votre nom</label>
@@ -458,7 +470,7 @@
                             </div>
                             <div class="form-group col-12">
                                 <label for="name">Votre sujet</label>
-                                <input type="text" class="form-control" name="subject" id="date-pick">
+                                <input type="text" class="form-control" name="subject" id="subject">
                             </div>
                             <div class="form-group col-12">
                                 <label for="name">Votre message</label>

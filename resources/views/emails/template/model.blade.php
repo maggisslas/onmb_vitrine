@@ -55,7 +55,7 @@
                             <a href="https://www.facebook.com/profile.php?id=100054628592039"
                                 target="_blank"
                                 style="color:#ffffff;">
-                                <img src="{{ env('LOGO_FB') }}"
+                                <img src="{{ config('base.variables.logo_fb') }}"
                                     alt="Facebook"
                                     width="38"
                                     style="height:auto;display:block;border:0;" />

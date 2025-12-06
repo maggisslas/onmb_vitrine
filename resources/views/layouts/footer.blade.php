@@ -38,7 +38,7 @@
                                 <ul class="menu">
                                     <li><a href="{{ route('ordre.presentation') }}">Qui sommes-nous ?</a></li>
                                     <li><a href="{{ route('ordre.presentation').'#vision' }}">Notre Vision</a></li>
-                                    <li><a href="service.html">Nos Valeurs</a></li>
+                                    {{-- <li><a href="service.html">Nos Valeurs</a></li> --}}
                                     <li><a href="{{ route('contact') }}">Contactez-nous</a></li>
                                 </ul>
                             </div>
