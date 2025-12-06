@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\ActeController;
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\MembreController;
 use Illuminate\Support\Facades\Route;
 
@@ -9,7 +11,8 @@ require_once 'auth.php';
 
 
 
-Route::get('/', function () { return view('index'); })->name('home');
+// Route::get('/', function () { return view('index'); })->name('home');
+Route::get('/', [HomeController::class , 'index'])->name('home');
 
 Route::prefix('ordre')->name('ordre.')->group(function(){
 
@@ -41,11 +44,13 @@ Route::prefix('publications')->name('publications.')->group(function(){
     // Route::get('/rapport', function () { return view('pages.publications.rapport'); })->name('rapport');
     // Route::get('/recommandation', function () { return view('pages.publications.recommandation'); })->name('recommandation');
 
-    Route::get('/{category}', [BlogController::class , 'index'])->name('index');
+    Route::get('/categorie/{category}', [BlogController::class , 'index'])->name('index');
     Route::get('/{id}/details/{slug}', [BlogController::class , 'show'])->name('show');
+    Route::get('/rechercher' , [BlogController::class , 'search'])->name('search');
 
 });
 
 Route::get('/contact', function () { return view('pages.contact'); })->name('contact');
+Route::post('envoi/contact', [ContactController::class , 'contact'])->name('contact.send');
 
 require_once 'admin.php';

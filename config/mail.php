@@ -41,10 +41,10 @@ return [
             'transport' => 'smtp',
             'scheme' => env('MAIL_SCHEME'),
             'url' => env('MAIL_URL'),
-            'host' => env('MAIL_HOST', '127.0.0.1'),
-            'port' => env('MAIL_PORT', 2525),
-            'username' => env('MAIL_USERNAME'),
-            'password' => env('MAIL_PASSWORD'),
+            'host' => env('MAIL_HOST', 'node25-ca.n0c.com'),
+            'port' => env('MAIL_PORT', 465),
+            'username' => env('MAIL_USERNAME' , 'infos@ordremedecinsbenin.bj'),
+            'password' => env('MAIL_PASSWORD' , 'Onmb@20252026'),
             'timeout' => null,
             'local_domain' => env('MAIL_EHLO_DOMAIN', parse_url((string) env('APP_URL', 'http://localhost'), PHP_URL_HOST)),
         ],
@@ -111,8 +111,9 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
+        'address' => env('MAIL_FROM_ADDRESS', 'infos@ordremedecinsbenin.bj'),
+        'name' => env('MAIL_FROM_NAME', 'ONMB'),
+        'admin_mail' => env('MAIL_ADMIN', 'infos@ordremedecinsbenin.bj')
     ],
 
 ];

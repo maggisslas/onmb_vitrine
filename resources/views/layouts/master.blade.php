@@ -118,6 +118,14 @@
         color: var(--theme-color) !important;
     }
 
+    .bg-primary {
+        background-color: var(--theme-color) !important;
+        color: #ffffff !important;
+    }
+    .bg-secondary {
+        background-color: var(--theme-color2) !important;
+        color: #ffffff !important;
+    }
     :root {
         --theme-color: rgb(188,31,36);
         --theme-color2: rgb(24, 72, 38);

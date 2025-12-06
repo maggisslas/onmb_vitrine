@@ -1,5 +1,5 @@
 @php
-    $title_page = 'Présentation'
+    $title_page = $category->name ?? 'Recherche : '.$search;
 @endphp
 
 @extends('layouts.master')
@@ -41,10 +41,10 @@
                                         </div>
                                         <div class="blog-content">
                                             <div class="blog-meta has-bg">
-                                                <a href="blog.html">
+                                                <a href="javascript:void(0);">
                                                     {{ $article->category->name }}
                                                 </a>
-                                                <a href="blog.html">
+                                                <a href="javascript:void(0);">
                                                     <i class="fal fa-calendar"></i>{{ $article->created_at->diffForHumans() }}
                                                 </a>
                                             </div>
@@ -63,9 +63,12 @@
                             @endforeach
 
                         @else
-                            <p class="text-center">
-                                Aucun article disponible pour le moment.
-                            </p>
+                                @if (isset($search))
+                                    <p class="text-center">  Aucun article trouvé. </p>
+                                @else
+                                    <p class="text-center">  Aucun article disponible pour le moment. </p>
+                                @endif
+
                         @endif
 
                     </div>
@@ -85,18 +88,19 @@
                 <div class="col-xxl-4 col-lg-5">
                     <aside class="sidebar-area">
                         <div class="widget widget_search  ">
-                            <form class="search-form">
-                                <input type="text" placeholder="Faites une recherche">
+                            <form class="search-form" action="{{ route('publications.search') }}">
+                                <input type="text" name="search" value="{{ isset($search) ? $search : '' }}" placeholder="Recherche..." required>
                                 <button type="submit"><i class="far fa-search"></i></button>
                             </form>
                         </div>
                         <div class="widget widget_categories  ">
                             <h3 class="widget_title">Categories</h3>
                             <ul>
-                                @foreach ($categories as $category)
-                                    <li >
-                                        <a href="blog.html">
-                                            {{ $category->name }}
+                                @foreach ($categories as $currentCategory)
+                                    <li>
+                                        <a href="{{ route('publications.index' ,$currentCategory->slug ) }}"
+                                            class=" {{ isset($currentCategory) && isset($category) && $category->id ==  $currentCategory->id ? 'bg-secondary' : '' }}">
+                                            {{ $currentCategory->name }}
                                         </a>
                                     </li>
                                 @endforeach
@@ -105,19 +109,29 @@
                         </div>
                         <div class="widget  ">
                             <h3 class="widget_title">Publications récentes</h3>
-                            <div class="recent-post-wrap">
-                                <div class="recent-post">
-                                    <div class="media-img">
-                                        <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a>
-                                    </div>
-                                    <div class="media-body">
-                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">How Business Is Taking Over & What to Do About It</a></h4>
-                                        <div class="recent-post-meta">
-                                            <a href="blog.html"><i class="fal fa-calendar"></i>21 Jun, 2024</a>
+                            @if ($recent_articles->isEmpty())
+                                <p>Aucune publication récente disponible.</p>
+                            @else
+                                @foreach ($recent_articles as $article)
+                                    <div class="recent-post-wrap">
+                                        <div class="recent-post">
+                                            <div class="media-img">
+                                                <a href="{{ route('publications.show' , [$article->id , $article->slug]) }}">
+                                                    <img src="{{ $article->getFirstMediaUrl('Picture') ? $article->getFirstMediaUrl('Picture') : '../default/no_image.jpg' }}" alt="Blog Image">
+                                                </a>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="post-title">
+                                                    <a class="text-inherit" href="{{ route('publications.show' , [$article->id , $article->slug]) }}">{{ $article->title }}</a>
+                                                </h4>
+                                                <div class="recent-post-meta">
+                                                    <a href="blog.html"><i class="fal fa-calendar"></i>{{ $article->created_at->diffForHumans() }}</a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
+                                @endforeach
+                            @endif
                         </div>
 
                     </aside>

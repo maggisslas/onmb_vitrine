@@ -21,5 +21,9 @@
         ]
     ])
 
+    <p class="text-center py-5">
+        Aucune offre d'emploie pour le moment.
+    </p>
+
 @endsection
 

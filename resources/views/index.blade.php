@@ -487,7 +487,7 @@
                 </div>
                 <div class="col-lg-auto d-none d-lg-block">
                     <div class="sec-btn">
-                        <a href="blog.html" class="th-btn style4 btn-p">Voir tous</a>
+                        <a href="{{ route('publications.index' , $category->slug) }}" class="th-btn style4 btn-p">Voir tous</a>
                     </div>
                 </div>
             </div>
@@ -495,25 +495,52 @@
                 <div class="swiper th-slider has-shadow" id="blogSlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"3"}}}'>
                     <div class="swiper-wrapper">
 
-                        {{-- <div class="swiper-slide">
-                            <div class="blog-card">
-                                <div class="blog-img">
-                                    <img src="assets/img/blog/blog_1_1.jpg" alt="blog image">
-                                </div>
-                                <div class="blog-content">
-                                    <div class="blog-meta">
-                                        <a href="blog.html"><i class="fal fa-user"></i>By Mediax</a>
-                                        <a href="blog.html"><i class="fal fa-calendar"></i>15 March, 2024</a>
-                                    </div>
-                                    <h3 class="box-title"><a href="blog-details.html">How Business Is Taking Over & What to Do About It</a></h3>
-                                    <a href="blog-details.html" class="th-btn btn-sm">Read More</a>
-                                </div>
-                            </div>
-                        </div> --}}
 
-                        <p class="text-center">
-                            Aucune publication pour le moment
-                        </p>
+                         @if ($articles->isNotEmpty())
+
+                            @foreach ($articles as $article)
+
+                                {{-- <div class="col-xl-6 col-md-6 th-blog"> --}}
+                                <div class="swiper-slide">
+                                    <div class="blog-card">
+                                        <div class="blog-img">
+                                            <img src="{{ $article->getFirstMediaUrl('Picture') ? $article->getFirstMediaUrl('Picture') : '../default/no_image.jpg' }}"
+                                                        alt="{{ $article->title }}" />
+                                        </div>
+                                        <div class="blog-content">
+                                            <div class="blog-meta has-bg">
+                                                <a href="javascript:void(0);">
+                                                    {{ $article->category->name }}
+                                                </a>
+                                                <a href="javascript:void(0);">
+                                                    <i class="fal fa-calendar"></i>{{ $article->created_at->diffForHumans() }}
+                                                </a>
+                                            </div>
+                                            <h3 class="box-title">
+                                                <a href="{{ route('publications.show', [$article->id , $article->slug]) }}">
+                                                    {{ mb_strimwidth($article->title, 0, 75, "...") }}
+                                                </a>
+                                            </h3>
+                                            <a href="{{ route('publications.show', [$article->id , $article->slug]) }}" class="th-btn btn-sm btn-s">
+                                                Lire plus
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                {{-- </div> --}}
+
+                            @endforeach
+
+                        @else
+                                @if (isset($search))
+                                    <p class="text-center">  Aucun article trouvé. </p>
+                                @else
+                                    <p class="text-center">  Aucun article disponible pour le moment. </p>
+                                @endif
+
+                        @endif
+
+                        {{-- <p class="text-center"> Aucune publication pour le moment </p> --}}
 
                     </div>
                 </div>
@@ -540,14 +567,14 @@
                         <h2 class="sec-title text-white">Foire Aux Questions</h2>
                     </div>
 
-                    <div class="accordion-1 accordion py-3" id="faqAccordion">
+                    <div class="accordion-1 accordion py-3" id="faqAccordion1">
                         <div class="accordion-card">
                             <div class="accordion-header" id="collapse-item-1">
                                 <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
                                     01. Est-ce l'ONMB qui délivre l'autorisation ?
                                 </button>
                             </div>
-                            <div id="collapse-1" class="accordion-collapse collapse" aria-labelledby="collapse-item-1" data-bs-parent="#faqAccordion">
+                            <div id="collapse-1" class="accordion-collapse collapse" aria-labelledby="collapse-item-1" data-bs-parent="#faqAccordion1">
                                 <div class="accordion-body">
                                     <p class="faq-text">
                                         Non c'est le Ministre de la Santé. L'ordre se charge de vérifier la conformité du
@@ -559,14 +586,14 @@
                         </div>
                     </div>
 
-                    <div class="accordion-1 accordion py-3" id="faqAccordion">
+                    <div class="accordion-2 accordion py-3" id="faqAccordion2">
                         <div class="accordion-card">
-                            <div class="accordion-header" id="collapse-item-1">
-                                <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+                            <div class="accordion-header" id="collapse-item-2">
+                                <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2">
                                     02. Un médecin du public peut-il avoir une autorisation d'exercice en clientèle privée ?
                                 </button>
                             </div>
-                            <div id="collapse-1" class="accordion-collapse collapse" aria-labelledby="collapse-item-1" data-bs-parent="#faqAccordion">
+                            <div id="collapse-2" class="accordion-collapse collapse" aria-labelledby="collapse-item-2" data-bs-parent="#faqAccordion2">
                                 <div class="accordion-body">
                                     <p class="faq-text">
                                         Non. Tout médecin qui a un contrat avec un hôpital public et qui émarge au
@@ -586,14 +613,14 @@
                         </div>
                     </div>
 
-                    <div class="accordion-1 accordion py-3" id="faqAccordion">
+                    <div class="accordion-3 accordion py-3" id="faqAccordion3">
                         <div class="accordion-card">
-                            <div class="accordion-header" id="collapse-item-1">
-                                <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+                            <div class="accordion-header" id="collapse-item-3">
+                                <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="true" aria-controls="collapse-3">
                                     03. Au bout de quel délai, l'autorisation vous sera-t-elle accordée ?
                                 </button>
                             </div>
-                            <div id="collapse-1" class="accordion-collapse collapse" aria-labelledby="collapse-item-1" data-bs-parent="#faqAccordion">
+                            <div id="collapse-3" class="accordion-collapse collapse" aria-labelledby="collapse-item-3" data-bs-parent="#faqAccordion3">
                                 <div class="accordion-body">
                                     <p class="faq-text">
                                         Après avoir déposé votre dossier au secrétariat de l'ONMB, l'ordre des médecins
