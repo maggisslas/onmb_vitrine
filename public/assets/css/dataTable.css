@@ -716,7 +716,7 @@ div.dt-container .dt-paging .dt-paging-button.disabled, div.dt-container .dt-pag
 div.dt-container .dt-paging .dt-paging-button:hover {
   color: rgb(188, 31, 36) !important;
   /* border: 1px solid rgb(188, 31, 36); */
-  background-color: #aaa;
+  background-color: #f5f7fa;
   border-radius:5px;
   /*
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgb(88.4, 88.4, 88.4)), color-stop(100%, #111));
