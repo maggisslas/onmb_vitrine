@@ -1,5 +1,5 @@
 @php
-    $title_page = 'Tableau des médécins'
+    $title_page = intval($type) == 0 ? 'Tableau des médécins' : 'Tableau des médécins à jours'
 @endphp
 
 @extends('layouts.master')
@@ -9,7 +9,23 @@
 @endsection
 
 @section('style')
-    <link rel="stylesheet" href="https://cdn.datatables.net/2.3.5/css/dataTables.dataTables.css">
+    {{-- <link rel="stylesheet" href="https://cdn.datatables.net/2.3.5/css/dataTables.dataTables.css"> --}}
+    <link rel="stylesheet" href="assets/css/dataTable.css">
+    <style>
+        select, input {
+            height: 47px !important;
+            background: #f5f7fa !important;
+            border-radius: 20px !important;
+            border: none !important;
+            padding: 0px 15px !important;
+
+        }
+
+        .dt-layout-row{
+            display: flex !important;
+            align-items: flex-start !important;
+        }
+    </style>
 
 @endsection
 
@@ -22,7 +38,7 @@
         ]
     ])
 
-    <section class="container py-0">
+    <section class="container pb-5 mb-5">
 
             <div class="title-area text-center pt-5">
                 <h4 class="sec-title">
@@ -70,7 +86,7 @@
                 search: 'Recherchez un membre',
                 zeroRecords: 'Aucun membre trouvé',
                 lengthMenu: "Afficher _MENU_ Membres par page",
-                info:'Affichage du _START_ (er/ème) au _END_ ème membre sur _TOTAL_ au total',
+                info:'Affichage : _START_ - _END_ sur _TOTAL_ membres',
                 infoEmpty: 'Aucune donnée disponible',
                 infoFiltered: '(filtré à partir de _MAX_ membres au total)',
             }

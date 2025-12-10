@@ -10,6 +10,7 @@ class MembreController extends Controller
 {
     public function liste_membres($type=false){
 
+        // dd($type);
 
         $url = config('base.variables.apiHost').'/member/all';
         $members = Http::post($url, [

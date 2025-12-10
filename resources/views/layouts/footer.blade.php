@@ -14,7 +14,7 @@
                         <div class="widget footer-widget">
                             <div class="th-widget-about">
                                 <div class="about-logo">
-                                    <a href="home-medical-clinic.html"><img src="assets/img/logo_onmb.png" alt="Mediax"></a>
+                                    <a href="home-medical-clinic.html"><img src="assets/img/logo_onmb.png" alt="ONMB"></a>
                                 </div>
                                 <p class="footer-info">
                                     <i class="fal fa-location-dot"></i>
