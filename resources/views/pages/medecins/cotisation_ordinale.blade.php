@@ -43,7 +43,7 @@
                                 <img src="assets/img/icon/tab_icon_1.svg" alt="icon">
                             </span> Site web
                         </button>
-                        <button class="tab-btn" id="nav-two-tab" data-bs-toggle="tab" data-bs-target="#nav-two" type="button" role="tab" aria-controls="nav-two" aria-selected="true">
+                        {{-- <button class="tab-btn" id="nav-two-tab" data-bs-toggle="tab" data-bs-target="#nav-two" type="button" role="tab" aria-controls="nav-two" aria-selected="true">
                             <span class="icon">
                                 <img src="assets/img/icon/tab_icon_1.svg" alt="icon">
                             </span> MTN
@@ -62,7 +62,7 @@
                             <span class="icon">
                                 <img src="assets/img/icon/tab_icon_1.svg" alt="icon">
                             </span> BGFI
-                        </button>
+                        </button> --}}
                     </div>
                 </div>
                 <div class="tab-content why-tab-content">
@@ -87,7 +87,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Single item -->
+                    {{-- <!-- Single item -->
                     <div class="tab-pane fade" id="nav-two" role="tabpanel" aria-labelledby="nav-two-tab">
                         <div class="row gy-40 align-items-center">
                             <div class="col-xl-7">
@@ -174,7 +174,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
 
                 </div>
             </div>
