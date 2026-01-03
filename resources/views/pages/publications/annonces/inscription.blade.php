@@ -14,7 +14,9 @@
         .text-primary {
             color: #bc1f24 !important;
         }
-
+        a.important{
+            text-decoration: underline !important;
+        }
         .important{
             color: #bc1f24 !important;
             font-weight: bold;
@@ -55,7 +57,7 @@
                 Accéder à la page d’inscription
             </h5>
             <p>
-                Rendez-vous sur <a href="https://ordremedecinsbenin.bj/">https://ordremedecinsbenin.bj/</a>, cliquez sur <span class="important">Mon espace</span>, puis sur <span class="important">S’inscrire</span>.
+                Rendez-vous sur <a href="https://ordremedecinsbenin.bj/" class="important">https://ordremedecinsbenin.bj/</a>, cliquez sur <span class="important">Mon espace</span>, puis sur <span class="important">S’inscrire</span>.
             </p>
             {{-- <p>
                 👉 Pour les utilisateurs de téléphones portables, il est nécessaire d’ouvrir le menu principal, puis de sélectionner <span class="important">S’inscrire</span> afin d’accéder à la même interface.
@@ -219,6 +221,8 @@
                                                     Après avoir correctement renseigné l’ensemble des champs, il suffit de cliquer sur le bouton « S’inscrire » pour finaliser la création du compte.
                                                     L’inscription est alors effective. Le médecin peut désormais se connecter à son espace personnel et accéder aux différentes fonctionnalités de la plateforme de l’ONMB.
                                                 </p>
+
+                                                Découvrez en détail le <a href="{{ route('publications.annonces.paiement_cotisations') }}" class="important">processus de paiement des cotisations</a> en consultant cet article :
 
                                             </div>
                                         </div>

@@ -14,7 +14,9 @@
         .text-primary {
             color: #bc1f24 !important;
         }
-
+        a.important{
+            text-decoration: underline !important;
+        }
         .important{
             color: #bc1f24 !important;
             font-weight: bold;
@@ -69,7 +71,7 @@
                                     <div class="row align-items-center">
                                         <div class="col-xl-6">
                                             <p>
-                                                Avant toute opération de <strong>paiement</strong>, le médecin doit être <a href="{{ route('publications.annonces.inscription') }}">inscrit sur la plateforme de l’ONMB</a>.
+                                                Avant toute opération de <strong>paiement</strong>, le médecin doit être <a href="{{ route('publications.annonces.inscription') }}" class="important">inscrit sur la plateforme de l’ONMB</a>.
                                                 Une fois l’inscription effectuée, il convient de se connecter à son espace personnel en renseignant :
                                             </p>
                                             <ul>
