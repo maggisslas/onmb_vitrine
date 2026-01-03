@@ -1,10 +1,10 @@
+ {{-- <a href="https://monespace.ordremedecinsbenin.bj/" class='btn-mon-espace' target="_blank">Mon espace</a> --}}
 <div class="popup-search-box d-none d-lg-block">
     <button class="searchClose"><i class="fal fa-times"></i></button>
     <form action="{{ route('publications.search') }}">
         <input type="text" name="search" value="{{ isset($search) ? $search : '' }}" placeholder="Que recherchez-vous ?">
         <button type="submit"><i class="fal fa-search"></i></button>
     </form>
-
 </div>
 
 {{-- Mobile Menu --}}
@@ -67,9 +67,9 @@
                     <a href="{{ route('contact') }}" class="{{ Route::currentRouteName() == 'contact' ? 'active' : '' }}">Contact</a>
                 </li>
 
-                <li>
+                {{-- <li>
                     <a href="https://monespace.ordremedecinsbenin.bj/" class='btn-mon-espace' target="_blank">Mon espace</a>
-                </li>
+                </li> --}}
 
             </ul>
         </div>
@@ -128,6 +128,10 @@
                                     <a href="#" class="{{ request()->is('*publications*') ? 'active' : '' }}">Publication</a>
                                     <ul class="sub-menu">
 
+                                        <li>
+                                            <a href="{{ route('publications.annonces') }}">Annonces</a>
+                                        </li>
+
                                         @foreach (\App\Models\Category::where('type' , 'blog')->get() as $category)
                                             <li>
                                                 <a href="{{ route('publications.index' , $category->slug) }}">
@@ -155,6 +159,7 @@
                     <div class="col-auto">
                         <div class="header-button">
                             <button type="button" class="icon-btn searchBoxToggler d-none d-xl-inline-block"><i class="far fa-search"></i></button>
+                             <a href="https://monespace.ordremedecinsbenin.bj/" class='btn-mon-espace d-lg-none' style="background: #fff !important; color:#bc1f24 !important;" target="_blank"> <i class="fa fa-user"></i> Mon espace</a>
                             <button type="button" class="th-menu-toggle d-block d-lg-none"><i class="far fa-bars"></i></button>
                         </div>
                     </div>

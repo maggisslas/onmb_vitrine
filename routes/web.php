@@ -47,6 +47,9 @@ Route::prefix('publications')->name('publications.')->group(function(){
     Route::get('/categorie/{category}', [BlogController::class , 'index'])->name('index');
     Route::get('/{id}/details/{slug}', [BlogController::class , 'show'])->name('show');
     Route::get('/rechercher' , [BlogController::class , 'search'])->name('search');
+    Route::get('/annonces', function () { return view('pages.publications.annonces.index'); })->name('annonces');
+    Route::get('/comment-sinscrire', function () { return view('pages.publications.annonces.inscription'); })->name('annonces.inscription');
+    Route::get('/processus-de-paiement-des-cotisations', function () { return view('pages.publications.annonces.paiement'); })->name('annonces.paiement_cotisations');
 
 });
 
