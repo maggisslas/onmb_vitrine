@@ -75,7 +75,7 @@
                                                 Une fois l’inscription effectuée, il convient de se connecter à son espace personnel en renseignant :
                                             </p>
                                             <ul>
-                                                <li>son <strong>numéro de matricule</strong> délivré par l’ONMB ;</li>
+                                                <li>son <strong>numéro d'inscription</strong> délivré par l’ONMB ;</li>
                                                 <li>son <strong>mot de passe</strong> personnel.</li>
                                             </ul>
                                             <p>

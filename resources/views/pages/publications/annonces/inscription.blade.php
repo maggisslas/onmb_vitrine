@@ -102,7 +102,7 @@
                                                         <div class="box-number shadow-sm">01</div>
                                                         <div class="media-body text-start">
                                                             <h3 class="box-title">Le numéro d'inscription</h3>
-                                                            <p class="box-text">Le numéro matricule, qui doit impérativement respecter le format indiqué dans le champ prévu à cet effet. Ce format comprend :</p>
+                                                            <p class="box-text">Le numéro d'inscription, qui doit impérativement respecter le format indiqué dans le champ prévu à cet effet. Ce format comprend :</p>
                                                             <ul>
                                                                 <li><strong>les quatre premiers chiffres</strong> (Ex: 0001)</li>
                                                                 <li><strong>la mention ONMB</strong> (Ajouter automaniquement par la plateforme)</li>
