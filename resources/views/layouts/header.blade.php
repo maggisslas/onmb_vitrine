@@ -43,7 +43,7 @@
                         class="{{ request()->is('*medecins*') ? 'active' : '' }}">Médécins</a>
                     <ul class="sub-menu">
                         <li><a href="{{ route('medecins.liste_medecins') }}" class="{{ Route::currentRouteName() == 'medecins.liste_medecins' && !request()->has('type') ? 'active' : '' }}">Tableau des médécins</a></li>
-                        <li><a href="{{ route('medecins.liste_medecins' , ['type' => true]) }}" class="{{ Route::currentRouteName() == 'medecins.liste_medecins' && request()->get('type') === "1" ? 'active' : '' }}">Tableau des médécins</a></li>
+                        <li><a href="{{ route('medecins.liste_medecins' , ['type' => true]) }}" class="{{ Route::currentRouteName() == 'medecins.liste_medecins' && request()->get('type') === "1" ? 'active' : '' }}">Tableau des médécins à jours</a></li>
 
                         <li><a href="{{ route('medecins.cotisation_ordinale') }}" class="{{ Route::currentRouteName() == 'medecins.cotisation_ordinale' ? 'active' : '' }}">Cotisation ordinale</a></li>
                         <li><a href="{{ route('medecins.offres_emploie') }}" class="{{ Route::currentRouteName() == 'medecins.offres_emploie' ? 'active' : '' }}">Offre d'emploi</a></li>
