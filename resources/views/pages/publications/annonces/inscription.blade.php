@@ -157,8 +157,8 @@
                                                 <img src="assets/img/onmb/inscription_paiement/inscription3.png" alt="Inscription">
                                             </div>
                                         </div>
-                                        <div class="col-12 text-center text-xl-start mt-2">
-                                            <div class="pe-xxl-5 mb-40 mb-xl-0">
+                                        <div class="col-12 mt-2" >
+                                            <div class="pe-xxl-5 mb-40 mb-xl-0" >
 
                                                 <p>
                                                     À ce niveau, le médecin doit compléter les informations suivantes :
@@ -214,7 +214,7 @@
                                 <div class="container">
                                     <div class="row align-items-center">
 
-                                        <div class="col-6 text-center text-xl-start">
+                                        <div class="col-xl-6">
                                             <div class="pe-xxl-5 mb-40 mb-xl-0">
 
                                                 <p>
