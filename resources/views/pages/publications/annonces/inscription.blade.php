@@ -240,6 +240,10 @@
                     </div>
                 </div>
 
+                <p>
+                    Pour toutes préoccupations, veuillez contacter le secrétariat de l'ordre au <a href="mailto:secretariat@ordremedecinsbenin.bj" class="important">secretariat@ordremedecinsbenin.bj</a>
+                </p>
+
             <div>
 
             </div>
