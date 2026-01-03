@@ -53,6 +53,10 @@
                     <a href="#" class="{{ request()->is('*publications*') ? 'active' : '' }}">Publication</a>
                     <ul class="sub-menu">
 
+                        <li>
+                            <a href="{{ route('publications.annonces') }}">Annonces</a>
+                        </li>
+
                         @foreach (\App\Models\Category::where('type' , 'blog')->get() as $category)
                             <li>
                                 <a href="{{ route('publications.index' , $category->slug) }}">
