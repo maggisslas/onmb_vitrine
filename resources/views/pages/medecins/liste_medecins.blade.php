@@ -11,6 +11,7 @@
 @section('style')
     {{-- <link rel="stylesheet" href="https://cdn.datatables.net/2.3.5/css/dataTables.dataTables.css"> --}}
     <link rel="stylesheet" href="assets/css/dataTable.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/3.0.8/css/responsive.dataTables.css">
     <style>
         select, input {
             height: 47px !important;
@@ -48,7 +49,7 @@
 
 
 
-            <table id="list" class="display">
+            <table id="list" class="display table-responsive">
                 <thead>
                     <tr>
                         <th>N°</th>
@@ -76,12 +77,16 @@
 @section('scripts')
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <script src="https://cdn.datatables.net/2.3.5/js/dataTables.js"></script>
+     <script src="https://cdn.datatables.net/responsive/3.0.8/js/dataTables.responsive.js"></script>
+    <script src="https://cdn.datatables.net/responsive/3.0.8/js/responsive.dataTables.js"></script>
 
     <script>
         new DataTable('#list',{
             info: true,
             ordering: true,
             paging: true,
+            responsive: true,
+            autoWidth: true,
             language: {
                 search: 'Recherchez un membre',
                 zeroRecords: 'Aucun membre trouvé',

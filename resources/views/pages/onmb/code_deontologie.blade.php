@@ -65,7 +65,7 @@
                                 <p class="sec-text">
                                     sur proposition du Ministre de la Santé,
                                 </p>
-                               
+
                                 <strong>
                                     le Conseil des Ministres entendu en sa séance du 16 juillet 2025,
                                 </strong>
@@ -197,7 +197,7 @@
                         </div>
                     </div>
 
-                    
+
                     {{-- TITRE II : DEVOIRS DES MÉDECINS ENVERS LES MALADES --}}
                     <div class="title-area text-center pt-5">
                         <h4 class="sec-title">CHAPITRE II : MISSION ET ATTRIBUTIONS DE L'ORDRE NATIONAL DES MÉDECINS DU BÉNIN</h4>
@@ -607,7 +607,7 @@
                     <div class="title-area text-center pt-5">
                         <h4 class="sec-title">CHAPITRE III : ORGANISATION ET FONCTIONNEMENT DE L'ORDRE NATIONAL DES MÉDECINS DU BÉNIN</h4>
                     </div>
-                    
+
 
                     <div class="col-xl-6">
                         <div class="accordion-1 accordion py-3" id="faqAccordion45">
@@ -630,7 +630,7 @@
                                                 les conseils départementaux de l'Ordre.
                                             </li>
                                         </ul>
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -655,7 +655,7 @@
                                         </p>
                                         <ol>
                                             <li>
-                                                établir, mettre à jour et publier le tableau de l'Ordre 
+                                                établir, mettre à jour et publier le tableau de l'Ordre
                                             </li>
                                             <li>
                                                 surveiller l'exercice de la profession ;
@@ -719,7 +719,7 @@
                                         </p>
                                         <ol>
                                             <li>
-                                                quatre (04) membres élus parmi les médecins du secteur privé dont trois (03) au moins en service dans des formations sanitaires et comprenant au moins une (01) personne de chaque sexe ; 
+                                                quatre (04) membres élus parmi les médecins du secteur privé dont trois (03) au moins en service dans des formations sanitaires et comprenant au moins une (01) personne de chaque sexe ;
                                             </li>
                                             <li>
                                                 quatre (04) membres élus parmi les médecins du secteur public dont deux (02) au moins en service dans une formation sanitaire et comprenant au moins une (01) personne de chaque sexe ; et
@@ -753,7 +753,7 @@
                                         </p>
                                         <ol>
                                             <li>
-                                                un (01) président ; 
+                                                un (01) président ;
                                             </li>
                                             <li>
                                                 un (01) vice-président ;
@@ -762,7 +762,7 @@
                                                 un (01) secrétaire général.
                                             </li>
                                         </ol>
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -865,7 +865,7 @@
                                     <div class="accordion-body">
                                         <p>
                                             Le vice-président assiste le président dans ses tâches et le supplée en cas d'absence.
-                                        </p>                                       
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -904,7 +904,7 @@
                                         <p>
                                             Les attributions des membres du bureau exécutif du Conseil national de l'Ordre sont précisées dans le règlement intérieur de l'Ordre.
                                         </p>
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -931,13 +931,13 @@
                                         </p>
                                         <p>
                                             La convocation et les dossiers correspondants sont adressés à chaque membre au moins sept (7) jours avant les sessions ordinaires et trois (3) jours avant les sessions extraordinaires. En cas d'urgence, ces délais sont réduits sans être inférieurs à vingt-quatre (24) heures.
-                                        </p>                                        
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="title-area text-left pt-5">
                         <h5 class="sec-title">Section 2 : Conseils départementaux de l'Ordre</h5>
                     </div>
@@ -955,7 +955,7 @@
                                         <p>
                                             Les conseils départementaux de l'Ordre sont les démembrements de l'Ordre au niveau des départements.
                                         </p>
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -994,7 +994,7 @@
                                                 veille au respect des droits des membres.
                                             </li>
                                         </ol>
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -1013,7 +1013,7 @@
                                         <p>
                                             Le siège du conseil départemental est fixé au chef-lieu du département.
                                         </p>
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -1044,7 +1044,7 @@
                                         <p>
                                             En l'absence de candidature dans l'une quelconque des catégories visées au premier alinéa du présent article, les candidatures provenant des autres catégories peuvent y suppléer.
                                         </p>
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -1097,7 +1097,7 @@
                                         <p>
                                             Les membres du conseil départemental sont élus pour un mandat de quatre (04) ans, renouvelable une (01) fois
                                         </p>
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -1117,7 +1117,7 @@
                                         <p>
                                             Nul ne peut être élu membre d'un Conseil départemental s'il n'a totalisé deux (02) ans au moins d'exercice de la profession médicale.
                                         </p>
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -1137,7 +1137,7 @@
                                         <p>
                                             Sous l'autorité du président du Conseil national de l'Ordre, le président du Conseil départemental de l'Ordre représente l'Ordre national des médecins du Bénin au niveau de son ressort territorial. Il ne dispose pas de pouvoirs disciplinaires propres à l'égard des membres. Il coordonne les activités du Conseil départemental de l'Ordre.
                                         </p>
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -1157,7 +1157,7 @@
                                         <p>
                                             Le vice-président du Conseil départemental de l'Ordre assiste le président dans ses tâches et le supplée en cas d'absence.
                                         </p>
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -1177,7 +1177,7 @@
                                         <p>
                                             Le rapporteur du Conseil départemental de l'Ordre est chargé de la diffusion des informations de l'Ordre aux membres de l'Ordre au niveau départemental. Il assure l'organisation pratique des sessions et en rédige les comptes rendus et procès-verbaux.
                                         </p>
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -1203,7 +1203,7 @@
                                         <p>
                                             La convocation et les dossiers correspondants sont adressés à chaque membre au moins sept (7) jours avant les sessions ordinaires et trois (3) jours avant les sessions extraordinaires. En cas d'urgence, ces délais sont réduits sans être inférieurs à vingt-quatre (24) heures.
                                         </p>
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -1230,7 +1230,7 @@
                                         <p>
                                             Les résultats des élections sont constatés par arrêté du ministre chargé de la Santé.
                                         </p>
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -1250,7 +1250,7 @@
                                         <p>
                                             À défaut pour le Conseil national de l'Ordre d'organiser les élections en vue du renouvellement des membres des organes dans les délais prévus par le régime électoral, le ministre chargé de la Santé y supplée d'office.
                                         </p>
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -1271,7 +1271,7 @@
                                             Le Conseil national de l'Ordre prend fonction à la date d'expiration du mandat du conseil sortant. <br> Les membres élus des conseils départementaux sont installés dans leurs fonctions par le Conseil national de l'Ordre dans le mois qui suit la proclamation des résultats. À défaut, ils prennent d'office fonction.
 
                                         </p>
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -1291,7 +1291,7 @@
                                         <p>
                                             Sauf en cas de défaut de candidature féminine, les bureaux exécutifs des organes de l'Ordre comprennent chacun, au moins une femme.
                                         </p>
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -1311,7 +1311,7 @@
                                         <p>
                                             Les conditions et les modalités relatives aux différentes élections sont précisées par un décret fixant le régime électoral.
                                         </p>
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -1331,7 +1331,7 @@
                                         <p>
                                             En cas de démission, de décès ou d'empêchement d'un membre élu d'un organe de l'Ordre, il est procédé à son remplacement, pour la durée restante du mandat en cours, si cette durée est supérieure à trois (3) mois. Pour les postes du bureau, à l'exception de celui du président, le remplaçant est élu par le conseil parmi ses membres. Pour les postes de conseiller, le remplacement est assuré par le suppléant, conformément aux dispositions du décret sur le régime électoral. À défaut de suppléant disponible, le bureau exécutif concerné désigne un autre membre de l'Ordre pour poursuivre le mandat. <br> L'exercice du mandat par un remplaçant, tel que prévu au premier alinéa du présent article, ne compte pas au titre du nombre possible de mandats pour le remplaçant concerné.
                                         </p>
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -1352,7 +1352,7 @@
                                             Trois (3) absences successives non justifiées aux réunions statutaires d'un organe de l'Ordre constituent un motif d'exclusion du membre en cause. L'exclusion du membre est prononcée conformément aux dispositions du règlement intérieur. Son remplacement est assuré par le suppléant élu conformément aux dispositions du décret sur le régime électoral relatif à la vacance de poste. À défaut de suppléant disponible, le bureau exécutif de l'organe concerné désigne un membre pour poursuivre le mandat. <br> L'exercice du mandat par un remplaçant, tel que prévu au premier alinéa du présent article, ne compte pas au titre du nombre possible de mandats pour le remplaçant concerné.
 
                                         </p>
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -1372,7 +1372,7 @@
                                         <p>
                                             Les fonctions de membre du Conseil national de l'Ordre et des conseils départementaux sont incompatibles avec celles de directeur ou de conseiller technique dans une administration publique. Elles sont également incompatibles avec l'exercice d'un mandat syndical ou d'une organisation professionnelle de médecin, à l'exception des sociétés savantes.
                                         </p>
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -1392,7 +1392,7 @@
                                         <p>
                                             Les conseils de l'Ordre mettent en place, en cas de nécessité, des commissions se rapportant à des questions spécifiques relevant de leurs compétences.
                                         </p>
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -1412,7 +1412,7 @@
                                         <p>
                                             Les employeurs du secteur public et du secteur privé facilitent la participation de leurs agents aux activités des différents conseils de l'Ordre et, à cet effet, leur accordent les autorisations nécessaires.
                                         </p>
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -1432,7 +1432,7 @@
                                         <p>
                                             Les organes de l'Ordre ne siègent valablement que si la moitié (1/2) au moins des membres est présente. Si ce quorum n'est pas atteint, le président de l'organe concerné procède à une nouvelle convocation des membres dans les mêmes conditions que celles prévues par les dispositions des articles 17 et 28 du présent décret. Les organes de l'Ordre siègent valablement quel que soit le nombre de membres présents à la suite de cette seconde convocation.
                                         </p>
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -1453,14 +1453,14 @@
                                             Les conseils de l'Ordre délibèrent à la majorité simple des voix des membres présents et représentés. Les décisions sont constatées par procès-verbal signé par les membres présents. <br> En cas de partage des voix, celle du président de séance est prépondérante
 
                                         </p>
-                                        
+
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    
+
                     <div class="title-area text-center pt-5">
                         <h4 class="sec-title">CHAPITRE IV : TABLEAU DE L'ORDRE NATIONAL DES MÉDECINS DU BÉNIN</h4>
                     </div>
@@ -1572,7 +1572,7 @@
 
                                             <p>Les dossiers d'inscription sont déposés au secrétariat du conseil départemental de l'Ordre territorialement compétent, à raison de la résidence ou du lieu d'exercice effectif ou envisagé du demandeur ou en ligne sur le site internet de l'Ordre. </p>
 
-                                            </li>   
+                                            </li>
                                         </ol>
                                     </div>
                                 </div>
@@ -1790,7 +1790,7 @@
                                         <p>
                                             Tout membre de l'Ordre a droit à la protection de l'Ordre lorsqu'il est l'objet d'atteinte dans l'exercice ou à l'occasion de l'exercice de sa profession.
                                         </p>
-                                       
+
                                     </div>
                                 </div>
                             </div>
@@ -2337,7 +2337,7 @@
                                                 un (01) mois s'il demeure dans les autres communes ;
                                             </li>
                                             <li>
-                                                deux (02) mois s'il se trouve hors du territoire national 
+                                                deux (02) mois s'il se trouve hors du territoire national
                                             </li>
                                         </ul>
                                     </div>
@@ -2471,20 +2471,17 @@
                     </div>
 
                     <div class="col-xl-6">
-                        <div class="accordion-1 accordion py-3" id="faqAccordion121">
+                        <div class="accordion-1 accordion py-3" id="faqAccordion123">
                             <div class="accordion-card">
-                                <div class="accordion-header" id="collapse-item-121">
-                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-121" aria-expanded="true" aria-controls="collapse-121">
+                                <div class="accordion-header" id="collapse-item-123">
+                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-123" aria-expanded="true" aria-controls="collapse-123">
                                         Article 85
                                     </button>
                                 </div>
                                 <div id="collapse-123" class="accordion-collapse collapse" aria-labelledby="collapse-item-123" data-bs-parent="#faqAccordion123">
                                     <div class="accordion-body">
                                         <p>
-                                            Le Conseil national de l'Ordre siégeant comme conseil de discipline d'appel, comprend un magistrat en activité désigné par le ministre chargé de la Justice pour la durée du mandat du conseil départemental de l'Ordre.
-                                        </p>
-                                        <p>
-                                            Le conseil de discipline d'appel connaît en dernier ressort des décisions disciplinaires rendues par les conseils de discipline. Il confirme, annule ou modifie lesdites décisions.
+                                            La procédure disciplinaire devant le Conseil de discipline d'appel est la même que celle suivie devant les conseils de discipline.
                                         </p>
                                     </div>
                                 </div>
@@ -2493,20 +2490,17 @@
                     </div>
 
                     <div class="col-xl-6">
-                        <div class="accordion-1 accordion py-3" id="faqAccordion121">
+                        <div class="accordion-1 accordion py-3" id="faqAccordion124">
                             <div class="accordion-card">
-                                <div class="accordion-header" id="collapse-item-121">
-                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-121" aria-expanded="true" aria-controls="collapse-121">
-                                        Article 83
+                                <div class="accordion-header" id="collapse-item-124">
+                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-124" aria-expanded="true" aria-controls="collapse-124">
+                                        Article 86
                                     </button>
                                 </div>
-                                <div id="collapse-121" class="accordion-collapse collapse" aria-labelledby="collapse-item-121" data-bs-parent="#faqAccordion121">
+                                <div id="collapse-124" class="accordion-collapse collapse" aria-labelledby="collapse-item-124" data-bs-parent="#faqAccordion124">
                                     <div class="accordion-body">
                                         <p>
-                                            Le Conseil national de l'Ordre siégeant comme conseil de discipline d'appel, comprend un magistrat en activité désigné par le ministre chargé de la Justice pour la durée du mandat du conseil départemental de l'Ordre.
-                                        </p>
-                                        <p>
-                                            Le conseil de discipline d'appel connaît en dernier ressort des décisions disciplinaires rendues par les conseils de discipline. Il confirme, annule ou modifie lesdites décisions.
+                                            Le conseil national de l'Ordre tient, pour les affaires dont il est saisi, le registre prévu à l'article 81 du présent décret.
                                         </p>
                                     </div>
                                 </div>
@@ -2515,20 +2509,44 @@
                     </div>
 
                     <div class="col-xl-6">
-                        <div class="accordion-1 accordion py-3" id="faqAccordion121">
+                        <div class="accordion-1 accordion py-3" id="faqAccordion125">
                             <div class="accordion-card">
-                                <div class="accordion-header" id="collapse-item-121">
-                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-121" aria-expanded="true" aria-controls="collapse-121">
-                                        Article 83
+                                <div class="accordion-header" id="collapse-item-125">
+                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-121" aria-expanded="true" aria-controls="collapse-125">
+                                        Article 87
                                     </button>
                                 </div>
-                                <div id="collapse-121" class="accordion-collapse collapse" aria-labelledby="collapse-item-121" data-bs-parent="#faqAccordion121">
+                                <div id="collapse-125" class="accordion-collapse collapse" aria-labelledby="collapse-item-125" data-bs-parent="#faqAccordion125">
                                     <div class="accordion-body">
                                         <p>
-                                            Le Conseil national de l'Ordre siégeant comme conseil de discipline d'appel, comprend un magistrat en activité désigné par le ministre chargé de la Justice pour la durée du mandat du conseil départemental de l'Ordre.
+                                            Tout membre d'une formation disciplinaire de l'Ordre s'abstient de siéger :
+                                        </p>
+                                        <ol>
+                                            <li>si l'affaire est de nature à présenter un intérêt personnel pouvant affecter son indépendance ;</li>
+                                            <li>s'il a eu un conflit avéré avec le mis en cause ;</li>
+                                        </ol>
+                                        <p>s'il existe un lien de subordination entre lui et le mis en cause ou entre lui et le plaignant.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6">
+                        <div class="accordion-1 accordion py-3" id="faqAccordion126">
+                            <div class="accordion-card">
+                                <div class="accordion-header" id="collapse-item-126">
+                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-126" aria-expanded="true" aria-controls="collapse-126">
+                                        Article 88
+                                    </button>
+                                </div>
+                                <div id="collapse-126" class="accordion-collapse collapse" aria-labelledby="collapse-item-126" data-bs-parent="#faqAccordion126">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Les décisions disciplinaires définitives prononcées par l'Ordre sont notifiées au ministre chargé de la Santé.
                                         </p>
                                         <p>
-                                            Le conseil de discipline d'appel connaît en dernier ressort des décisions disciplinaires rendues par les conseils de discipline. Il confirme, annule ou modifie lesdites décisions.
+                                            Les décisions disciplinaires définitives prononçant des sanctions d'interdiction d'exercer ou de radiation du tableau de l'Ordre sont notifiées au Centre national du casier judiciaire et au responsable de tout fichier destiné à recevoir ce type d'information.
                                         </p>
                                     </div>
                                 </div>
@@ -2537,20 +2555,20 @@
                     </div>
 
                     <div class="col-xl-6">
-                        <div class="accordion-1 accordion py-3" id="faqAccordion121">
+                        <div class="accordion-1 accordion py-3" id="faqAccordion127">
                             <div class="accordion-card">
-                                <div class="accordion-header" id="collapse-item-121">
-                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-121" aria-expanded="true" aria-controls="collapse-121">
-                                        Article 83
+                                <div class="accordion-header" id="collapse-item-127">
+                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-127" aria-expanded="true" aria-controls="collapse-127">
+                                        Article 89
                                     </button>
                                 </div>
-                                <div id="collapse-121" class="accordion-collapse collapse" aria-labelledby="collapse-item-121" data-bs-parent="#faqAccordion121">
+                                <div id="collapse-127" class="accordion-collapse collapse" aria-labelledby="collapse-item-127" data-bs-parent="#faqAccordion127">
                                     <div class="accordion-body">
                                         <p>
-                                            Le Conseil national de l'Ordre siégeant comme conseil de discipline d'appel, comprend un magistrat en activité désigné par le ministre chargé de la Justice pour la durée du mandat du conseil départemental de l'Ordre.
+                                            Les décisions du conseil de discipline d'appel sont susceptibles de pourvoi en cassation devant la Cour suprême, statuant en assemblée plénière, conformément aux règles applicables devant la Cour suprême.
                                         </p>
                                         <p>
-                                            Le conseil de discipline d'appel connaît en dernier ressort des décisions disciplinaires rendues par les conseils de discipline. Il confirme, annule ou modifie lesdites décisions.
+                                            La notification de toute décision du conseil de discipline d'appel au médecin concerné fait mention du droit de saisir la Cour suprême.
                                         </p>
                                     </div>
                                 </div>
@@ -2559,20 +2577,44 @@
                     </div>
 
                     <div class="col-xl-6">
-                        <div class="accordion-1 accordion py-3" id="faqAccordion121">
+                        <div class="accordion-1 accordion py-3" id="faqAccordion128">
                             <div class="accordion-card">
-                                <div class="accordion-header" id="collapse-item-121">
-                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-121" aria-expanded="true" aria-controls="collapse-121">
-                                        Article 83
+                                <div class="accordion-header" id="collapse-item-128">
+                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-128" aria-expanded="true" aria-controls="collapse-128">
+                                        Article 90
                                     </button>
                                 </div>
-                                <div id="collapse-121" class="accordion-collapse collapse" aria-labelledby="collapse-item-121" data-bs-parent="#faqAccordion121">
+                                <div id="collapse-128" class="accordion-collapse collapse" aria-labelledby="collapse-item-128" data-bs-parent="#faqAccordion128">
                                     <div class="accordion-body">
                                         <p>
-                                            Le Conseil national de l'Ordre siégeant comme conseil de discipline d'appel, comprend un magistrat en activité désigné par le ministre chargé de la Justice pour la durée du mandat du conseil départemental de l'Ordre.
+                                            L'exercice de l'action disciplinaire ne fait pas obstacle :
+                                        </p>
+                                        <ul>
+                                            <li>aux poursuites que le ministère public ou les particuliers peuvent engager devant les juridictions répressives;</li>
+                                            <li>aux actions civiles en réparation du préjudice résultant d'un délit ou d'un quasi délit;</li>
+                                            <li>à l'action disciplinaire devant l'administration dont dépend le médecin fonctionnaire.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6">
+                        <div class="accordion-1 accordion py-3" id="faqAccordion129">
+                            <div class="accordion-card">
+                                <div class="accordion-header" id="collapse-item-121">
+                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-129" aria-expanded="true" aria-controls="collapse-129">
+                                        Article 91
+                                    </button>
+                                </div>
+                                <div id="collapse-129" class="accordion-collapse collapse" aria-labelledby="collapse-item-129" data-bs-parent="#faqAccordion129">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Le ministre chargé de la Santé et le ministre chargé de la Fonction publique veillent à l'application des sanctions disciplinaires prononcées par l'Ordre. Ils donnent auxdites sanctions les suites qui s'imposent dans la gestion de la carrière du médecin agent de la Fonction publique concerné.
                                         </p>
                                         <p>
-                                            Le conseil de discipline d'appel connaît en dernier ressort des décisions disciplinaires rendues par les conseils de discipline. Il confirme, annule ou modifie lesdites décisions.
+                                            Le ministre chargé de la Santé et le ministre chargé de la Fonction publique tiennent compte, pour les agents de la Fonction publique, des sanctions disciplinaires prononcées par l'Ordre, afin d'établir une préférence, lorsque des médecins n'ayant pas fait l'objet de sanctions seraient éligibles à une récompense ou une distinction statutaire au même titre que des médecins ayant fait l'objet de sanctions.
                                         </p>
                                     </div>
                                 </div>
@@ -2581,20 +2623,23 @@
                     </div>
 
                     <div class="col-xl-6">
-                        <div class="accordion-1 accordion py-3" id="faqAccordion121">
+                        <div class="accordion-1 accordion py-3" id="faqAccordion130">
                             <div class="accordion-card">
-                                <div class="accordion-header" id="collapse-item-121">
-                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-121" aria-expanded="true" aria-controls="collapse-121">
-                                        Article 83
+                                <div class="accordion-header" id="collapse-item-130">
+                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-130" aria-expanded="true" aria-controls="collapse-130">
+                                        Article 92
                                     </button>
                                 </div>
-                                <div id="collapse-121" class="accordion-collapse collapse" aria-labelledby="collapse-item-121" data-bs-parent="#faqAccordion121">
+                                <div id="collapse-130" class="accordion-collapse collapse" aria-labelledby="collapse-item-130" data-bs-parent="#faqAccordion130">
                                     <div class="accordion-body">
                                         <p>
-                                            Le Conseil national de l'Ordre siégeant comme conseil de discipline d'appel, comprend un magistrat en activité désigné par le ministre chargé de la Justice pour la durée du mandat du conseil départemental de l'Ordre.
+                                            La sanction de blâme avec inscription au dossier devenue définitive emporte pour le médecin agent de la Fonction publique, les mêmes effets que la sanction de blâme prévue au statut général de la Fonction publique.
                                         </p>
                                         <p>
-                                            Le conseil de discipline d'appel connaît en dernier ressort des décisions disciplinaires rendues par les conseils de discipline. Il confirme, annule ou modifie lesdites décisions.
+                                            La sanction d'interdiction temporaire d'exercer devenue définitive emporte pour le médecin agent de la Fonction publique, les mêmes effets que la sanction d'exclusion temporaire des fonctions.
+                                        </p>
+                                        <p>
+                                            La sanction de radiation devenue définitive emporte pour le médecin agent de la Fonction publique, les mêmes effets que la sanction de révocation sans perte des droits à pension ou, selon le cas, de rupture du contrat pour faute grave prévue par le statut général de la Fonction publique.
                                         </p>
                                     </div>
                                 </div>
@@ -2603,20 +2648,26 @@
                     </div>
 
                     <div class="col-xl-6">
-                        <div class="accordion-1 accordion py-3" id="faqAccordion121">
+                        <div class="accordion-1 accordion py-3" id="faqAccordion131">
                             <div class="accordion-card">
-                                <div class="accordion-header" id="collapse-item-121">
-                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-121" aria-expanded="true" aria-controls="collapse-121">
-                                        Article 83
+                                <div class="accordion-header" id="collapse-item-131">
+                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-131" aria-expanded="true" aria-controls="collapse-131">
+                                        Article 93
                                     </button>
                                 </div>
-                                <div id="collapse-121" class="accordion-collapse collapse" aria-labelledby="collapse-item-121" data-bs-parent="#faqAccordion121">
+                                <div id="collapse-131" class="accordion-collapse collapse" aria-labelledby="collapse-item-131" data-bs-parent="#faqAccordion131">
                                     <div class="accordion-body">
                                         <p>
-                                            Le Conseil national de l'Ordre siégeant comme conseil de discipline d'appel, comprend un magistrat en activité désigné par le ministre chargé de la Justice pour la durée du mandat du conseil départemental de l'Ordre.
+                                            Tout membre de l'Ordre frappé d'une peine disciplinaire et qui n'a pas été exclu de l'Ordre peut, à l'expiration des délais ci-dessous et à condition qu'il n'ait été l'objet d'aucune autre sanction dans l'intervalle de ces délais, introduire auprès du président du Conseil national de l'Ordre, une demande de réhabilitation administrative tendant à ce qu'aucune trace de la sanction prononcée ne subsiste pas dans son dossier. <br> Ces délais sont :
+
                                         </p>
+                                        <ul>
+                                            <li>deux (02) ans pour l'avertissement ;</li>
+                                            <li>trois (03) ans pour le blâme avec inscription au dossier ;</li>
+                                            <li>cinq (05) ans pour l'interdiction temporaire d'exercice.</li>
+                                        </ul>
                                         <p>
-                                            Le conseil de discipline d'appel connaît en dernier ressort des décisions disciplinaires rendues par les conseils de discipline. Il confirme, annule ou modifie lesdites décisions.
+                                            Si par son comportement général, l'interessé a donné satisfaction depuis la sanction dont il a fait l'objet, il est fait droit à sa demande. <br> Il est statué sur son cas par le Conseil national de l'Ordre, après avis des conseils départementaux dont il a appartenu depuis le prononcé de la sanction. <br> Le dossier du membre est reconstitué par le Conseil national de l'Ordre.
                                         </p>
                                     </div>
                                 </div>
@@ -2625,20 +2676,23 @@
                     </div>
 
                     <div class="col-xl-6">
-                        <div class="accordion-1 accordion py-3" id="faqAccordion121">
+                        <div class="accordion-1 accordion py-3" id="faqAccordion132">
                             <div class="accordion-card">
-                                <div class="accordion-header" id="collapse-item-121">
-                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-121" aria-expanded="true" aria-controls="collapse-121">
-                                        Article 83
+                                <div class="accordion-header" id="collapse-item-132">
+                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-132" aria-expanded="true" aria-controls="collapse-132">
+                                        Article 94
                                     </button>
                                 </div>
-                                <div id="collapse-121" class="accordion-collapse collapse" aria-labelledby="collapse-item-121" data-bs-parent="#faqAccordion121">
+                                <div id="collapse-132" class="accordion-collapse collapse" aria-labelledby="collapse-item-132" data-bs-parent="#faqAccordion132">
                                     <div class="accordion-body">
                                         <p>
-                                            Le Conseil national de l'Ordre siégeant comme conseil de discipline d'appel, comprend un magistrat en activité désigné par le ministre chargé de la Justice pour la durée du mandat du conseil départemental de l'Ordre.
+                                            Lorsqu'un membre de l'Ordre fait l'objet de poursuites devant une juridiction répressive, la procédure disciplinaire est suspendue jusqu'à ce que la décision de la juridiction soit devenue définitive. Son inscription au tableau est maintenue même en cas de détention provisoire
                                         </p>
                                         <p>
-                                            Le conseil de discipline d'appel connaît en dernier ressort des décisions disciplinaires rendues par les conseils de discipline. Il confirme, annule ou modifie lesdites décisions.
+                                            Tout membre de l'Ordre ayant écopé d'une condamnation définitive de plus de deux (02) ans d'emprisonnement pour faute professionnelle constitutive d'une infraction à la loi pénale est radié du tableau de l'Ordre.
+                                        </p>
+                                        <p>
+                                            Tout membre de l'Ordre ayant écopé d'une condamnation définitive pour faute non professionnelle constitutive d'une infraction qualifiée crime par la loi est radié du tableau de l'Ordre.
                                         </p>
                                     </div>
                                 </div>
@@ -2647,42 +2701,17 @@
                     </div>
 
                     <div class="col-xl-6">
-                        <div class="accordion-1 accordion py-3" id="faqAccordion121">
+                        <div class="accordion-1 accordion py-3" id="faqAccordion133">
                             <div class="accordion-card">
-                                <div class="accordion-header" id="collapse-item-121">
-                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-121" aria-expanded="true" aria-controls="collapse-121">
-                                        Article 83
+                                <div class="accordion-header" id="collapse-item-133">
+                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-133" aria-expanded="true" aria-controls="collapse-133">
+                                        Article 95
                                     </button>
                                 </div>
-                                <div id="collapse-121" class="accordion-collapse collapse" aria-labelledby="collapse-item-121" data-bs-parent="#faqAccordion121">
+                                <div id="collapse-133" class="accordion-collapse collapse" aria-labelledby="collapse-item-133" data-bs-parent="#faqAccordion133">
                                     <div class="accordion-body">
                                         <p>
-                                            Le Conseil national de l'Ordre siégeant comme conseil de discipline d'appel, comprend un magistrat en activité désigné par le ministre chargé de la Justice pour la durée du mandat du conseil départemental de l'Ordre.
-                                        </p>
-                                        <p>
-                                            Le conseil de discipline d'appel connaît en dernier ressort des décisions disciplinaires rendues par les conseils de discipline. Il confirme, annule ou modifie lesdites décisions.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-6">
-                        <div class="accordion-1 accordion py-3" id="faqAccordion121">
-                            <div class="accordion-card">
-                                <div class="accordion-header" id="collapse-item-121">
-                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-121" aria-expanded="true" aria-controls="collapse-121">
-                                        Article 83
-                                    </button>
-                                </div>
-                                <div id="collapse-121" class="accordion-collapse collapse" aria-labelledby="collapse-item-121" data-bs-parent="#faqAccordion121">
-                                    <div class="accordion-body">
-                                        <p>
-                                            Le Conseil national de l'Ordre siégeant comme conseil de discipline d'appel, comprend un magistrat en activité désigné par le ministre chargé de la Justice pour la durée du mandat du conseil départemental de l'Ordre.
-                                        </p>
-                                        <p>
-                                            Le conseil de discipline d'appel connaît en dernier ressort des décisions disciplinaires rendues par les conseils de discipline. Il confirme, annule ou modifie lesdites décisions.
+                                            Les dispositions du présent chapitre s'appliquent aux personnes inscrites sur la liste visant à l'article 41 du présent décret et dans toutes les dispositions du présent chapitre, la référence au tableau de l'Ordre s'entend comme référence à ladite liste.
                                         </p>
                                     </div>
                                 </div>
@@ -2693,33 +2722,35 @@
 
                     {{-- TITRE V : DEVOIRS DES MEDECINS ENVERS LES PHARMACIENS, CHIRURGIENS-DENTISTES, SAGES-FEMMES ET LES AUXILLIAIRES MEDICAUX --}}
                     <div class="title-area text-center pt-5">
-                        <h4 class="sec-title">TITRE V : DEVOIRS DES MEDECINS ENVERS LES PHARMACIENS, CHIRURGIENS-DENTISTES, SAGES-FEMMES ET LES AUXILLIAIRES MEDICAUX</h4>
+                        <h4 class="sec-title">CHAPITRE VI : DISPOSITIONS FINANCIÈRES</h4>
                     </div>
 
                     <div class="col-xl-6">
-                        <div class="accordion-1 accordion py-3" id="faqAccordion71">
+                        <div class="accordion-1 accordion py-3" id="faqAccordion134">
                             <div class="accordion-card">
-                                <div class="accordion-header" id="collapse-item-71">
-                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-71" aria-expanded="true" aria-controls="collapse-71">
-                                        71. Article
+                                <div class="accordion-header" id="collapse-item-134">
+                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-134" aria-expanded="true" aria-controls="collapse-134">
+                                        Article 96
                                     </button>
                                 </div>
-                                <div id="collapse-71" class="accordion-collapse collapse" aria-labelledby="collapse-item-71" data-bs-parent="#faqAccordion71">
+                                <div id="collapse-134" class="accordion-collapse collapse" aria-labelledby="collapse-item-134" data-bs-parent="#faqAccordion134">
                                     <div class="accordion-body">
                                         <p>
-                                            Dans leurs rapports professionnels avec les membres des professions paramédicales, notamment les pharmaciens, les chirurgiens-dentistes, les sages-femmes, les infirmiers et infirmières, les médecins doivent respecter l’indépendance de ceux-ci.
+                                            Les ressources de l'Ordre national des médecins du Bénin sont constituées des :
                                         </p>
-                                        <p>
-                                            Ils doivent éviter tout agissement injustifié tendant à leur nuire vis-à-vis de leur clientèle et de se montrer courtois à leur égard. Le médecin et le pharmacien devant vivre en bonne harmonie (et cela dans l’intérêt du public) il est indispensable que soient mis en pratique les principes fondamentaux suivants :
-                                        </p>
-                                        <ul>
+                                        <ol>
                                             <li>
-                                                Le médecin doit observer une impartialité absolue entre les divers pharmaciens de sa localité. Il doit s’abstenir de recommander telle ou telle pharmacie (exception faite pour les médecins propharmaciens). Il doit s’abstenir de prescrire les spécialités de compérage ainsi que des spécialités secrètes, seulement connues d’un seul pharmacien de sa localité
+                                                frais d'inscription ;
                                             </li>
                                             <li>
-                                                Il ne doit porter en public ou dans les familles des jugements sur tel ou tel pharmacien. Il ne doit pas formuler des critiques sur les préparations effectuées par tel ou tel pharmacien ni sur le prix des médicaments. Si l’exécution d’une préparation lui parait suspecte, le médecin suspendra s’il le juge bon, l’emploi à son entourage. Il devra discrètement demander des éclaircissements au pharmacien responsable de la préparation. Il agira de même pour les analyses de laboratoire.
+                                               cotisations ordinales ;
                                             </li>
-                                        </ul>
+                                            <li>subventions de l'État ;</li>
+                                            <li>appuis financiers des partenaires techniques et financiers ;</li>
+                                            <li>souscriptions volontaires des membres ;</li>
+                                            <li>appuis des collectivités territoriales ;</li>
+                                            <li>dons et legs reçus dans les conditions fixées par le règlement intérieur de l'Ordre.</li>
+                                        </ol>
                                     </div>
                                 </div>
                             </div>
@@ -2727,17 +2758,20 @@
                     </div>
 
                     <div class="col-xl-6">
-                        <div class="accordion-1 accordion py-3" id="faqAccordion72">
+                        <div class="accordion-1 accordion py-3" id="faqAccordion135">
                             <div class="accordion-card">
-                                <div class="accordion-header" id="collapse-item-72">
-                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-72" aria-expanded="true" aria-controls="collapse-72">
-                                        72. Article
+                                <div class="accordion-header" id="collapse-item-135">
+                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-135" aria-expanded="true" aria-controls="collapse-135">
+                                        Article 97
                                     </button>
                                 </div>
-                                <div id="collapse-72" class="accordion-collapse collapse" aria-labelledby="collapse-item-72" data-bs-parent="#faqAccordion72">
+                                <div id="collapse-135" class="accordion-collapse collapse" aria-labelledby="collapse-item-135" data-bs-parent="#faqAccordion135">
                                     <div class="accordion-body">
                                         <p>
-                                            Le médecin a le devoir de se montrer courtois et bienveillant envers les auxiliaires médicaux et s’attacher à ne pas leur nuire.
+                                            Les frais de fonctionnement des conseils de l'Ordre sont prévus au budget de chaque exercice.
+                                        </p>
+                                        <p>
+                                            Le Conseil national de l'Ordre alloue aux conseils départementaux les ressources nécessaires à leur fonctionnement conformément au budget de l'exercice.
                                         </p>
                                     </div>
                                 </div>
@@ -2746,61 +2780,20 @@
                     </div>
 
                     <div class="col-xl-12">
-                        <div class="accordion-1 accordion py-3" id="faqAccordion73">
+                        <div class="accordion-1 accordion py-3" id="faqAccordion136">
                             <div class="accordion-card">
-                                <div class="accordion-header" id="collapse-item-73">
-                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-73" aria-expanded="true" aria-controls="collapse-73">
-                                        73. Article
+                                <div class="accordion-header" id="collapse-item-136">
+                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-136" aria-expanded="true" aria-controls="collapse-136">
+                                        Article 98
                                     </button>
                                 </div>
-                                <div id="collapse-73" class="accordion-collapse collapse" aria-labelledby="collapse-item-73" data-bs-parent="#faqAccordion73">
+                                <div id="collapse-136" class="accordion-collapse collapse" aria-labelledby="collapse-item-136" data-bs-parent="#faqAccordion136">
                                     <div class="accordion-body">
                                         <p>
-                                            Tout projet de contrat d’association ou de société ayant un objet professionnel entre un ou plusieurs médecins et un ou plusieurs membres des professions visées aux deux articles précédents doit après avis du conseil départemental de l’ordre qui vérifie notamment si le projet est conforme aux lois en vigueur ainsi qu’au code de déontologie médicale, et s’il respecte la dignité professionnelle du médecin. Les dispositions du contrat n’entrent en vigueur qu’après avis du ministère de la santé.
+                                            L'Ordre tient une comptabilité de ses opérations conformément aux dispositions de l'Acte uniforme de l'Organisation pour l'Harmonisation en Afrique du Droit des Affaires relatif au système comptable des entités à but non lucratif.
                                         </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    {{-- TITRE VI : DES SANCTIONS PÉNALES --}}
-                    <div class="title-area text-center pt-5">
-                        <h4 class="sec-title">TITRE VI : DES SANCTIONS PÉNALES</h4>
-                    </div>
-
-                    <div class="col-xl-6">
-                        <div class="accordion-1 accordion py-3" id="faqAccordion74">
-                            <div class="accordion-card">
-                                <div class="accordion-header" id="collapse-item-74">
-                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-74" aria-expanded="true" aria-controls="collapse-74">
-                                        74. Article
-                                    </button>
-                                </div>
-                                <div id="collapse-74" class="accordion-collapse collapse" aria-labelledby="collapse-item-74" data-bs-parent="#faqAccordion74">
-                                    <div class="accordion-body">
                                         <p>
-                                            Sont punis d’une peine de 15 jours à 2 mois d’emprisonnement, d’une amende de 50000 à 500000 francs ou de l’une de ces deux peines seulement, les infractions aux articles 11,12,13,14,16,17,21,22,35,40,44,46 et 50 ci-dessus.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-6">
-                        <div class="accordion-1 accordion py-3" id="faqAccordion75">
-                            <div class="accordion-card">
-                                <div class="accordion-header" id="collapse-item-75">
-                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-75" aria-expanded="true" aria-controls="collapse-75">
-                                        75. Article
-                                    </button>
-                                </div>
-                                <div id="collapse-75" class="accordion-collapse collapse" aria-labelledby="collapse-item-75" data-bs-parent="#faqAccordion75">
-                                    <div class="accordion-body">
-                                        <p>
-                                            Sont punis d’une peine de 6 mois à 2 ans d’emprisonnement et d’une amende de 200000 à 2000000 de francs ou de l’une de ces deux peines seulement, les infractions aux articles 18, 20,23, 24,26, 41, 43,47 et 54.
+                                            Le Conseil national de l'Ordre adopte le manuel de procédures administratives, financières et comptables de l'Ordre.
                                         </p>
                                     </div>
                                 </div>
@@ -2809,17 +2802,18 @@
                     </div>
 
                     <div class="col-xl-12">
-                        <div class="accordion-1 accordion py-3" id="faqAccordion76">
+                        <div class="accordion-1 accordion py-3" id="faqAccordion137">
                             <div class="accordion-card">
-                                <div class="accordion-header" id="collapse-item-76">
-                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-76" aria-expanded="true" aria-controls="collapse-76">
-                                        76. Article
+                                <div class="accordion-header" id="collapse-item-137">
+                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-137" aria-expanded="true" aria-controls="collapse-137">
+                                        Article 99
                                     </button>
                                 </div>
-                                <div id="collapse-76" class="accordion-collapse collapse" aria-labelledby="collapse-item-76" data-bs-parent="#faqAccordion76">
+                                <div id="collapse-137" class="accordion-collapse collapse" aria-labelledby="collapse-item-137" data-bs-parent="#faqAccordion137">
                                     <div class="accordion-body">
                                         <p>
-                                            Les juridictions répressives saisies des infractions définies aux articles précédents peuvent prononcer des peines disciplinaires de l’interdiction temporaire à la radiation.
+                                            Le Conseil national de l'Ordre contrôle la gestion financière des conseils départementaux. <br> Il peut demander tout document qu'il juge nécessaire. Les modalités de ce contrôle sont fixées par le règlement intérieur de l'Ordre adopté par le Conseil national.
+
                                         </p>
                                     </div>
                                 </div>
@@ -2827,42 +2821,102 @@
                         </div>
                     </div>
 
-                    {{-- TITRE VII : DISPOSITIONS DIVERSES --}}
+                    <div class="col-xl-12">
+                        <div class="accordion-1 accordion py-3" id="faqAccordion138">
+                            <div class="accordion-card">
+                                <div class="accordion-header" id="collapse-item-138">
+                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-138" aria-expanded="true" aria-controls="collapse-138">
+                                        Article 100
+                                    </button>
+                                </div>
+                                <div id="collapse-138" class="accordion-collapse collapse" aria-labelledby="collapse-item-138" data-bs-parent="#faqAccordion138">
+                                    <div class="accordion-body">
+                                        <p>
+                                            La gestion financière et comptable du Conseil national de l'Ordre peut faire l'objet de contrôle par les organes compétents de l'État.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-12">
+                        <div class="accordion-1 accordion py-3" id="faqAccordion139">
+                            <div class="accordion-card">
+                                <div class="accordion-header" id="collapse-item-139">
+                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-139" aria-expanded="true" aria-controls="collapse-139">
+                                        Article 101
+                                    </button>
+                                </div>
+                                <div id="collapse-139" class="accordion-collapse collapse" aria-labelledby="collapse-item-139" data-bs-parent="#faqAccordion139">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Le Conseil national de l'Ordre recrute le personnel administratif nécessaire à l'exécution de ses activités, dans les conditions précisées par le règlement intérieur de l'Ordre.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-12">
+                        <div class="accordion-1 accordion py-3" id="faqAccordion730">
+                            <div class="accordion-card">
+                                <div class="accordion-header" id="collapse-item-730">
+                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-730" aria-expanded="true" aria-controls="collapse-730">
+                                        Article 102
+                                    </button>
+                                </div>
+                                <div id="collapse-730" class="accordion-collapse collapse" aria-labelledby="collapse-item-730" data-bs-parent="#faqAccordion730">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Le Conseil national de l'Ordre désigne un commissaire aux comptes titulaire et un commissaire aux comptes suppléant. <br> <br> Le commissaire aux comptes est rémunéré à la charge de l'Ordre conformément aux tarifs applicables aux missions des commissaires aux comptes
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-12">
+                        <div class="accordion-1 accordion py-3" id="faqAccordion731">
+                            <div class="accordion-card">
+                                <div class="accordion-header" id="collapse-item-731">
+                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-731" aria-expanded="true" aria-controls="collapse-731">
+                                        Article 103
+                                    </button>
+                                </div>
+                                <div id="collapse-731" class="accordion-collapse collapse" aria-labelledby="collapse-item-731" data-bs-parent="#faqAccordion73">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Les membres des organes de l'Ordre bénéficient d'une indemnité mensuelle de fonction dont le montant est fixé par le Conseil national de l'Ordre et approuvé par arrêté conjoint du ministre chargé de la Santé et du ministre chargé des Finances. <br> Le montant de l'indemnité ne peut être révisé avant une période de six (06) ans après la dernière révision.
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    {{-- CHAPITRE VII : DISPOSITIONS TRANSITOIRES ET FINALES --}}
                     <div class="title-area text-center pt-5">
-                        <h4 class="sec-title">TITRE VII : DISPOSITIONS DIVERSES</h4>
+                        <h4 class="sec-title">CHAPITRE VII : DISPOSITIONS TRANSITOIRES ET FINALES</h4>
                     </div>
 
                     <div class="col-xl-6">
-                        <div class="accordion-1 accordion py-3" id="faqAccordion77">
+                        <div class="accordion-1 accordion py-3" id="faqAccordion741">
                             <div class="accordion-card">
-                                <div class="accordion-header" id="collapse-item-77">
-                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-77" aria-expanded="true" aria-controls="collapse-77">
-                                        77. Article
+                                <div class="accordion-header" id="collapse-item-741">
+                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-741" aria-expanded="true" aria-controls="collapse-741">
+                                        Article 104
                                     </button>
                                 </div>
-                                <div id="collapse-77" class="accordion-collapse collapse" aria-labelledby="collapse-item-77" data-bs-parent="#faqAccordion77">
+                                <div id="collapse-741" class="accordion-collapse collapse" aria-labelledby="collapse-item-741" data-bs-parent="#faqAccordion741">
                                     <div class="accordion-body">
                                         <p>
-                                            Toutes décisions disciplinaires prises par les conseils départementaux en vertu du présent code peuvent être reformées ou annulées par le conseil national, soit d’office, soit à la demande des intéressés, laquelle doit être présentée dans les deux mois de la notification de la décision.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-6">
-                        <div class="accordion-1 accordion py-3" id="faqAccordion78">
-                            <div class="accordion-card">
-                                <div class="accordion-header" id="collapse-item-78">
-                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-78" aria-expanded="true" aria-controls="collapse-78">
-                                        78. Article
-                                    </button>
-                                </div>
-                                <div id="collapse-78" class="accordion-collapse collapse" aria-labelledby="collapse-item-78" data-bs-parent="#faqAccordion78">
-                                    <div class="accordion-body">
-                                        <p>
-                                            Tout médecin, lors de son inscription au tableau, doit affirmer devant le conseil départemental de l’ordre qu’il a eu connaissance du présent code et s’engager sous serment et par écrit à le respecter.
+                                            Les médecins déjà inscrits au tableau de l'Ordre national des médecins du Bénin y conservent leur inscription après l'entrée en vigueur du présent décret.
                                         </p>
                                     </div>
                                 </div>
@@ -2871,17 +2925,17 @@
                     </div>
 
                     <div class="col-xl-6">
-                        <div class="accordion-1 accordion py-3" id="faqAccordion79">
+                        <div class="accordion-1 accordion py-3" id="faqAccordion751">
                             <div class="accordion-card">
-                                <div class="accordion-header" id="collapse-item-79">
-                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-79" aria-expanded="true" aria-controls="collapse-79">
-                                        79. Article
+                                <div class="accordion-header" id="collapse-item-751">
+                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-751" aria-expanded="true" aria-controls="collapse-751">
+                                        Article 105
                                     </button>
                                 </div>
-                                <div id="collapse-79" class="accordion-collapse collapse" aria-labelledby="collapse-item-79" data-bs-parent="#faqAccordion79">
+                                <div id="collapse-751" class="accordion-collapse collapse" aria-labelledby="collapse-item-751" data-bs-parent="#faqAccordion751">
                                     <div class="accordion-body">
                                         <p>
-                                            Tout médecin qui cesse d’exercer est tenu d’en avertir le conseil départemental. Celui-ci lui donne acte de sa décision et en informe le conseil national. Si l’intéressé le demande expressément, il n’est plus inscrit au tableau.
+                                            Les demandes d'inscription au tableau de l'Ordre en cours sont instruites et délibérées conformément aux dispositions du présent décret.
                                         </p>
                                     </div>
                                 </div>
@@ -2889,18 +2943,19 @@
                         </div>
                     </div>
 
-                     <div class="col-xl-6">
-                        <div class="accordion-1 accordion py-3" id="faqAccordion80">
+                    <div class="col-xl-12">
+                        <div class="accordion-1 accordion py-3" id="faqAccordion761">
                             <div class="accordion-card">
-                                <div class="accordion-header" id="collapse-item-80">
-                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-80" aria-expanded="true" aria-controls="collapse-80">
-                                        80. Article
+                                <div class="accordion-header" id="collapse-item-761">
+                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-761" aria-expanded="true" aria-controls="collapse-761">
+                                        Article 106
                                     </button>
                                 </div>
-                                <div id="collapse-80" class="accordion-collapse collapse" aria-labelledby="collapse-item-80" data-bs-parent="#faqAccordion80">
+                                <div id="collapse-761" class="accordion-collapse collapse" aria-labelledby="collapse-item-761" data-bs-parent="#faqAccordion761">
                                     <div class="accordion-body">
                                         <p>
-                                            la présente ordonnance sera exécutée comme loi de l’Etat.
+                                            Le Conseil national de l'Ordre des médecins du Bénin en exercice à l'entrée en vigueur du présent décret reste en exercice jusqu'à l'installation des nouveaux organes. <br> <br> Les mandats exercés antérieurement par des membres de l'Ordre ne comptent pas pour l'application des dispositions des articles 11 et 23 du présent décret.
+
                                         </p>
                                     </div>
                                 </div>
@@ -2908,14 +2963,72 @@
                         </div>
                     </div>
 
+                    <div class="col-xl-12">
+                        <div class="accordion-1 accordion py-3" id="faqAccordion762">
+                            <div class="accordion-card">
+                                <div class="accordion-header" id="collapse-item-762">
+                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-762" aria-expanded="true" aria-controls="collapse-762">
+                                        Article 107
+                                    </button>
+                                </div>
+                                <div id="collapse-762" class="accordion-collapse collapse" aria-labelledby="collapse-item-762" data-bs-parent="#faqAccordion762">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Les procédures disciplinaires en cours, sauf celles qui ont été déjà sanctionnées par une décision définitive statuant au fond, sont jugées conformément aux dispositions du présent décret.
 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="col-xl-12">
+                        <div class="accordion-1 accordion py-3" id="faqAccordion763">
+                            <div class="accordion-card">
+                                <div class="accordion-header" id="collapse-item-763">
+                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-763" aria-expanded="true" aria-controls="collapse-763">
+                                        Article 108
+                                    </button>
+                                </div>
+                                <div id="collapse-763" class="accordion-collapse collapse" aria-labelledby="collapse-item-763" data-bs-parent="#faqAccordion763">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Le Ministre de la Santé, le Garde des Sceaux, le Ministre de la Justice et de la Législation et le Ministre du Travail et de la Fonction publique sont chargés, chacun en ce qui le concerne, de l'application du présent décret.
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-12">
+                        <div class="accordion-1 accordion py-3" id="faqAccordion764">
+                            <div class="accordion-card">
+                                <div class="accordion-header" id="collapse-item-764">
+                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-764" aria-expanded="true" aria-controls="collapse-764">
+                                        Article 109
+                                    </button>
+                                </div>
+                                <div id="collapse-764" class="accordion-collapse collapse" aria-labelledby="collapse-item-764" data-bs-parent="#faqAccordion764">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Le présent décret, qui prend effet à compter de la date de sa signature, abroge toutes dispositions antérieures contraires.
+                                        </p>
+                                        <p>Il sera publié au Journal officiel.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div>
-                        <p>Fait à Cotonou le 8 Février 1973</p>
-                        <p>Par le Président de la  République Chef de l’Etat Chef du Gouvernement, Chef de bataillon Mathieu KEREKOU</p>
-                        <p>Le Garde des Sceaux, Ministre de la justice et de la Législation</p>
-                        <p>Chef d’Escadron   Barthélémy OHOUENS</p>
-                        <p>Le Ministre de la Santé publique et des Affaires Sociales, Capitaine Moriba DJIBRIL</p>
+                        <p>Fait à Cotonou, le 16 juillet 2025</p>
+                        <p>Par le Président de la République, Chef de l'État, Chef du Gouvernement, Patrice TALON.</p>
+                        <p>Le Garde des Sceaux, Ministre de la Justice et de la Législation, Yvon DETCHENOU</p>
+                        <p>Le Ministre de la Santé, Benjamin Ignace B. HOUNKPATIN</p>
+                        <p>Le Ministre du Travail et de la Fonction publique, Adidjatou A. MATHYS
+</p>
                     </div>
 
 
