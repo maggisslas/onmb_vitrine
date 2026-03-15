@@ -1,5 +1,5 @@
 @php
-    $title_page = "Liste des électeurs"
+    $title_page = "Liste provisoire des électeurs"
 @endphp
 
 @extends('layouts.master')
