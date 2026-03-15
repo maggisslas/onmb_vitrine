@@ -11,6 +11,8 @@
 @section('style')
     {{-- <link rel="stylesheet" href="https://cdn.datatables.net/2.3.5/css/dataTables.dataTables.css"> --}}
     <link rel="stylesheet" href="assets/css/dataTable.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/3.0.8/css/responsive.dataTables.css">
+    <!-- <link rel="stylesheet" href="assets/css/datatables.bundle.css"> -->
     <style>
         select, input {
             height: 47px !important;
@@ -24,6 +26,9 @@
         .dt-layout-row{
             display: flex !important;
             align-items: flex-start !important;
+        }
+        .dt-length{
+            display: none !important;
         }
     </style>
 
@@ -46,33 +51,35 @@
                 </h4>
             </div>
 
-
-
-            <table id="list" class="display">
-                <thead>
-                    <tr>
-                        <th>N°</th>
-                        <th>Numéro d'inscription</th>
-                        <th>Nom & Prénom</th>
-                        <th>Departement</th>
-                        <th>Email</th>
-                    </tr>
-                </thead>
-                <tbody>
-
-                    @foreach ($members as $key => $member)
+            <div class="table-responsive">
+                <table id="list" class="table table-rounded table-striped gy-7 gs-7">
+                    <thead>
                         <tr>
-                            <td>{{ ++$key }}</td>
-                            <td>{{ $member['matricule'] }}</td>
-                            <td>{{ $member['lastname'] || $member['firstname'] ? $member['lastname'] . ' ' . $member['firstname'] : $member['old_full_name'] }}</td>
-                            <td>{{ $member['department'] ? $member['department']['name'] : 'N/A' }}</td>
-                            <td>{{ $member['user'] ? $member['user']['email'] : 'N/A' }}</td>
+                            <th>N°</th>
+                            <th>Photo</th>
+                            <th>Numéro d'inscription</th>
+                            <th>Nom & Prénom</th>
+                            <th>Departement</th>
+                            <th>Email</th>
                         </tr>
+                    </thead>
+                    <tbody>
 
-                    @endforeach
+                        @foreach ($members as $key => $member)
+                            <tr>
+                                <td>{{ ++$key }}</td>
+                                <td><img src="{{ $member['profile_image_url'] ?? 'assets/img/onmb/default-avatar.png' }}" alt="Profil" width="50" height="50"></td>
+                                <td>{{ $member['matricule'] }}</td>
+                                <td>{{ $member['lastname'] || $member['firstname'] ? $member['lastname'] . ' ' . $member['firstname'] : $member['old_full_name'] }}</td>
+                                <td>{{ $member['department'] ? $member['department']['name'] : 'N/A' }}</td>
+                                <td>{{ $member['user'] ? $member['user']['email'] : 'N/A' }}</td>
+                            </tr>
 
-                </tbody>
-            </table>
+                        @endforeach
+
+                    </tbody>
+                </table>
+            </div>
 
     </section>
 
@@ -81,12 +88,16 @@
 @section('scripts')
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <script src="https://cdn.datatables.net/2.3.5/js/dataTables.js"></script>
+    <script src="https://cdn.datatables.net/responsive/3.0.8/js/dataTables.responsive.js"></script>
+    <script src="https://cdn.datatables.net/responsive/3.0.8/js/responsive.dataTables.js"></script>
 
     <script>
         new DataTable('#list',{
             info: true,
             ordering: true,
             paging: true,
+            responsive: true,
+            // autoWidth: true,
             language: {
                 search: 'Recherchez un membre',
                 zeroRecords: 'Aucun electeur trouvé',

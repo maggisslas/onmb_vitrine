@@ -8,15 +8,16 @@ use Illuminate\Support\Facades\Http;
 
 class MembreController extends Controller
 {
-    public function liste_membres($type=false){
+    public function liste_membres($type = false)
+    {
 
         // dd($type);
 
-        $url = config('base.variables.apiHost').'/member/all';
+        $url = config('base.variables.apiHost') . '/member/all';
         $members = Http::post($url, [
-                            "code" => "___onmb___member___",
-                            "type" => $type,
-                        ]);
+            "code" => "___onmb___member___",
+            "type" => $type,
+        ]);
         // dd( $members->json());
         $members = $members->json();
 
@@ -27,22 +28,24 @@ class MembreController extends Controller
         //     $members = DB::table('members')->get();
         // }
 
-        return view('pages.medecins.liste_medecins' , compact('type','members'));
+        return view('pages.medecins.liste_medecins', compact('type', 'members'));
     }
 
-    public function liste_electeurs(){
+    public function liste_electeurs()
+    {
         try {
 
-            $url = config('base.variables.apiHost').'/member/all';
+            $url = config('base.variables.apiHost') . '/member/all';
             $members = Http::post($url, [
-                                "code" => "___onmb___member___",
-                                "type" => 1,
-                            ]);
+                "code" => "___onmb___member___",
+                "type" => 1,
+            ]);
             $members = $members->json();
             // dd($members);
-            return view('pages.publications.annonces.liste_electeurs' , compact('members'));
+            return view('pages.publications.annonces.liste_electeurs', compact('members'));
 
-        } catch (\Throwable $th) {
+        }
+        catch (\Throwable $th) {
             dd($th->getMessage());
         }
     }
