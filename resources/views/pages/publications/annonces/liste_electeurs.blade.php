@@ -61,13 +61,12 @@
                 <tbody>
 
                     @foreach ($members as $key => $member)
-
                         <tr>
                             <td>{{ ++$key }}</td>
                             <td>{{ $member['matricule'] }}</td>
                             <td>{{ $member['lastname'] || $member['firstname'] ? $member['lastname'] . ' ' . $member['firstname'] : $member['old_full_name'] }}</td>
                             <td>{{ $member['department'] ? $member['department']['name'] : 'N/A' }}</td>
-                            <td>{{ $member['email'] }}</td>
+                            <td>{{ $member['user'] ? $member['user']['email'] : 'N/A' }}</td>
                         </tr>
 
                     @endforeach
