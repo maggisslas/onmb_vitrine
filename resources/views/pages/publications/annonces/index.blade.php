@@ -46,6 +46,24 @@
                 <div class="col-xl-6 col-md-6 th-blog">
                     <div class="blog-box">
                         <div class="blog-img">
+                            <img src="assets/img/onmb/inscription_paiement/liste_electeur.jpg" alt="Liste des électeurs" />
+                        </div>
+                        <div class="blog-content">
+                            <h3 class="box-title">
+                                <a href="{{ route('publications.annonces.liste_electeurs') }}">
+                                    Liste des électeurs
+                                </a>
+                            </h3>
+                            <a href="{{ route('publications.annonces.liste_electeurs') }}" class="th-btn btn-sm btn-s">
+                                Lire plus
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-md-6 th-blog">
+                    <div class="blog-box">
+                        <div class="blog-img">
                             <img src="assets/img/onmb/inscription_paiement/inscription1.jpeg" alt="Inscription" />
                         </div>
                         <div class="blog-content">
@@ -78,6 +96,8 @@
                         </div>
                     </div>
                 </div>
+
+
 
             </div>
 

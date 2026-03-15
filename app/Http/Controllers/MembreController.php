@@ -30,4 +30,21 @@ class MembreController extends Controller
         return view('pages.medecins.liste_medecins' , compact('type','members'));
     }
 
+    public function liste_electeurs(){
+        try {
+
+            $url = config('base.variables.apiHost').'/member/all';
+            $members = Http::post($url, [
+                                "code" => "___onmb___member___",
+                                "type" => 1,
+                            ]);
+            $members = $members->json();
+            // dd($members);
+            return view('pages.publications.annonces.liste_electeurs' , compact('members'));
+
+        } catch (\Throwable $th) {
+            dd($th->getMessage());
+        }
+    }
+
 }

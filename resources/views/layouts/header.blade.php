@@ -68,6 +68,9 @@
                     </ul>
                 </li>
                 <li>
+                    <a href="{{ route('publications.annonces.liste_electeurs') }}" class="{{ Route::currentRouteName() == 'publications.annonces.liste_electeurs' ? 'active' : '' }}">Liste des electeurs</a>
+                </li>
+                <li>
                     <a href="{{ route('contact') }}" class="{{ Route::currentRouteName() == 'contact' ? 'active' : '' }}">Contact</a>
                 </li>
 
@@ -145,6 +148,9 @@
                                         @endforeach
 
                                     </ul>
+                                </li>
+                                <li>
+                                    <a href="{{ route('publications.annonces.liste_electeurs') }}" class="{{ Route::currentRouteName() == 'publications.annonces.liste_electeurs' ? 'active' : '' }}">Liste des electeurs</a>
                                 </li>
                                 <li>
                                     <a href="{{ route('contact') }}" class="{{ Route::currentRouteName() == 'contact' ? 'active' : '' }}">Contact</a>

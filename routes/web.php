@@ -14,29 +14,43 @@ require_once 'auth.php';
 // Route::get('/', function () { return view('index'); })->name('home');
 Route::get('/', [HomeController::class , 'index'])->name('home');
 
-Route::prefix('ordre')->name('ordre.')->group(function(){
+Route::prefix('ordre')->name('ordre.')->group(function () {
 
-    Route::get('/presentation', function () { return view('pages.onmb.presentation'); })->name('presentation');
-    Route::get('/fonctionnement', function () { return view('pages.onmb.fonctionnement'); })->name('fonctionnement');
-    Route::get('/conseil_national', function () { return view('pages.onmb.conseil_national'); })->name('conseil_national');
-    Route::get('/conseil_departemental', function () { return view('pages.onmb.conseil_departemental'); })->name('conseil_departemental');
-    Route::get('/code_deontologie', function () { return view('pages.onmb.code_deontologie'); })->name('code_deontologie');
-    // Route::get('/actes_autorisations', function () { return view('pages.onmb.actes_autorisations'); })->name('actes_autorisations');
-    Route::get('/actes_autorisations', [ActeController::class , 'index'])->name('actes_autorisations');
-    Route::get('/actes_autorisations/search/{category?}', [ActeController::class , 'search'])->name('actes_autorisations.search');
-    Route::get('/historique', function () { return view('pages.onmb.historique'); })->name('historique');
+    Route::get('/presentation', function () {
+            return view('pages.onmb.presentation'); }
+        )->name('presentation');
+        Route::get('/fonctionnement', function () {
+            return view('pages.onmb.fonctionnement'); }
+        )->name('fonctionnement');
+        Route::get('/conseil_national', function () {
+            return view('pages.onmb.conseil_national'); }
+        )->name('conseil_national');
+        Route::get('/conseil_departemental', function () {
+            return view('pages.onmb.conseil_departemental'); }
+        )->name('conseil_departemental');
+        Route::get('/code_deontologie', function () {
+            return view('pages.onmb.code_deontologie'); }
+        )->name('code_deontologie');
+        // Route::get('/actes_autorisations', function () { return view('pages.onmb.actes_autorisations'); })->name('actes_autorisations');
+        Route::get('/actes_autorisations', [ActeController::class , 'index'])->name('actes_autorisations');
+        Route::get('/actes_autorisations/search/{category?}', [ActeController::class , 'search'])->name('actes_autorisations.search');
+        Route::get('/historique', function () {
+            return view('pages.onmb.historique'); }
+        )->name('historique');
+    });
 
-});
-
-Route::prefix('medecins')->name('medecins.')->group(function(){
+Route::prefix('medecins')->name('medecins.')->group(function () {
 
     Route::get('/liste_medecins/{type?}', [MembreController::class , 'liste_membres'])->name('liste_medecins');
-    Route::get('/cotisation_ordinale', function () { return view('pages.medecins.cotisation_ordinale'); })->name('cotisation_ordinale');
-    Route::get('/offres_emploie', function () { return view('pages.medecins.offres_emploie'); })->name('offres_emploie');
+    Route::get('/cotisation_ordinale', function () {
+            return view('pages.medecins.cotisation_ordinale'); }
+        )->name('cotisation_ordinale');
+        Route::get('/offres_emploie', function () {
+            return view('pages.medecins.offres_emploie'); }
+        )->name('offres_emploie');
+    });
 
-});
-
-Route::prefix('publications')->name('publications.')->group(function(){
+Route::prefix('publications')->name('publications.')->group(function () {
 
     // Route::get('/actualites', function () { return view('pages.publications.actualites'); })->name('actualites');
     // Route::get('/bulletin', function () { return view('pages.publications.bulletin'); })->name('bulletin');
@@ -46,14 +60,22 @@ Route::prefix('publications')->name('publications.')->group(function(){
 
     Route::get('/categorie/{category}', [BlogController::class , 'index'])->name('index');
     Route::get('/{id}/details/{slug}', [BlogController::class , 'show'])->name('show');
-    Route::get('/rechercher' , [BlogController::class , 'search'])->name('search');
-    Route::get('/annonces', function () { return view('pages.publications.annonces.index'); })->name('annonces');
-    Route::get('/comment-sinscrire', function () { return view('pages.publications.annonces.inscription'); })->name('annonces.inscription');
-    Route::get('/processus-de-paiement-des-cotisations', function () { return view('pages.publications.annonces.paiement'); })->name('annonces.paiement_cotisations');
+    Route::get('/rechercher', [BlogController::class , 'search'])->name('search');
+    Route::get('/annonces', function () {
+            return view('pages.publications.annonces.index'); }
+        )->name('annonces');
+        Route::get('/comment-sinscrire', function () {
+            return view('pages.publications.annonces.inscription'); }
+        )->name('annonces.inscription');
+        Route::get('/processus-de-paiement-des-cotisations', function () {
+            return view('pages.publications.annonces.paiement'); }
+        )->name('annonces.paiement_cotisations');
+        // Route::get('/liste-de-electeurs', function () { return view('pages.publications.annonces.liste_electeurs'); })->name('annonces.liste_electeurs');
+        Route::get('/liste-de-electeurs', [MembreController::class , 'liste_electeurs'])->name('annonces.liste_electeurs');
+    });
 
-});
-
-Route::get('/contact', function () { return view('pages.contact'); })->name('contact');
+Route::get('/contact', function () {
+    return view('pages.contact'); })->name('contact');
 Route::post('envoi/contact', [ContactController::class , 'contact'])->name('contact.send');
 
 require_once 'admin.php';
