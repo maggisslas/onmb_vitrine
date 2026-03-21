@@ -58,6 +58,31 @@
                                 </div>
                             @endif
 
+                            {{-- Section pour les Documents PDF --}}
+                            @if ($article->getMedia('PdfFiles')->count() > 0)
+                                <div class="mt-5 border-top pt-4">
+                                    <h3 class="h5 mb-4">
+                                        <i class="fa fa-download text-primary" style="margin-right: 8px;"></i> Documents attachés
+                                    </h3>
+                                    <div class="d-flex flex-column" style="gap: 15px;">
+                                        @foreach ($article->getMedia('PdfFiles') as $media)
+                                            <div class="d-flex align-items-center justify-content-between p-3 shadow-sm" style="background-color: #f8f9fa; border-radius: 12px; border: 1px solid #e9ecef;">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fa fa-file-pdf text-danger fa-2x" style="margin-right: 15px;"></i>
+                                                    <div>
+                                                        <h6 class="mb-0 text-dark fw-bold" style="font-weight: 600;">{{ $media->name ?? $media->file_name }}</h6>
+                                                        <small class="text-muted">{{ number_format($media->size / 1024 / 1024, 2) }} Mo</small>
+                                                    </div>
+                                                </div>
+                                                <a href="{{ $media->getUrl() }}" download="{{ $media->file_name }}" class="btn btn-sm btn-primary" style="border-radius: 8px;">
+                                                    <i class="fa fa-download"></i> Télécharger
+                                                </a>
+                                            </div>
+                                        @endforeach
+                                    </div>
+                                </div>
+                            @endif
+
                         </div>
                     </div>
 

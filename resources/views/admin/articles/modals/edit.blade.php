@@ -95,6 +95,22 @@
 
                     </div>
 
+                    <div class="mb-3 mt-4 p-3" style="background-color: #f8f9fa; border-radius: 8px;">
+                        <label class="col-form-label fw-bold" for="pdf_files_update">
+                            <i class="fa fa-file-pdf text-danger"></i> Nouveaux documents PDF
+                        </label>
+                        <input type="file"
+                               name="pdf_files[]"
+                               id="pdf_files_update"
+                               class="form-control"
+                               accept="application/pdf"
+                               multiple>
+                        <small class="text-muted">Laissez vide si vous ne souhaitez pas modifier les PDF actuels.</small>
+                        
+                        <!-- Conteneur qui sera rempli par AJAX pour lister les PDF existants -->
+                        <div id="current_pdfs_container" class="mt-3"></div>
+                    </div>
+
                 </div>
             </div>
             <div class="modal-footer d-flex justify-content-between">
