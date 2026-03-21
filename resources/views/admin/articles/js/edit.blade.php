@@ -37,7 +37,7 @@
 
             pdfs.forEach(function(pdfFilePath) {
                 // Ajuster le chemin selon la structure (par ex: /storage/...)
-                let fileUrl = pdfFilePath.includes('storage') ?  pdfFilePath : '/storage/' + pdfFilePath;
+                let fileUrl = pdfFilePath.includes('storage') ? pdfFilePath : '/storage/' + pdfFilePath;
                 // let fileUrl = pdfFilePath;
 
                 pdfHtml += '<li class="mb-2">';
