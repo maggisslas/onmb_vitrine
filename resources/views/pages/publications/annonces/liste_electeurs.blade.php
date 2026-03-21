@@ -7632,7 +7632,7 @@
 
                 // Récupérer les valeurs uniques de la colonne Département (index 4) pour remplir le select généré
                 api.column(4).data().unique().sort().each(function (d, j) {
-                    if(d) {
+                    if(d && d != 'N/A') {
                         $('#departementFilter').append('<option value="' + d + '">' + d + '</option>');
                     }
                 });
