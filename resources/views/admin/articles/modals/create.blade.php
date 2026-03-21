@@ -100,6 +100,19 @@
 
                 </div>
 
+                <div class="mb-3 mt-4 p-3" style="background-color: #f8f9fa; border-radius: 8px;">
+                    <label class="col-form-label fw-bold" for="pdf_files">
+                        <i class="fa fa-file-pdf text-danger"></i> Joindre des documents PDF (Optionnel)
+                    </label>
+                    <input type="file"
+                           name="pdf_files[]"
+                           id="pdf_files"
+                           class="form-control"
+                           accept="application/pdf"
+                           multiple>
+                    <small class="text-muted">Vous pouvez sélectionner un ou plusieurs fichiers PDF (.pdf).</small>
+                </div>
+
         </div>
         <div class="modal-footer d-flex justify-content-between">
             <button class="btn btn-light" type="button" data-bs-dismiss="modal">Annuler</button>

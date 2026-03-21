@@ -35,14 +35,14 @@ class MembreController extends Controller
     {
         try {
 
-            $url = config('base.variables.apiHost') . '/member/all';
-            $members = Http::post($url, [
-                "code" => "___onmb___member___",
-                "type" => 1,
-            ]);
-            $members = $members->json();
-            // dd($members);
-            return view('pages.publications.annonces.liste_electeurs', compact('members'));
+            // $url = config('base.variables.apiHost') . '/member/all';
+            // $members = Http::post($url, [
+            //     "code" => "___onmb___member___",
+            //     "type" => 1,
+            // ]);
+            // $members = $members->json();
+            // return view('pages.publications.annonces.liste_electeurs', compact('members'));
+            return view('pages.publications.annonces.liste_electeurs');
 
         }
         catch (\Throwable $th) {

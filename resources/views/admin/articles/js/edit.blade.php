@@ -23,6 +23,36 @@
 
         setEditorContent(article.post)
 
+        // Affichage des PDFs existants
+        $('#current_pdfs_container').empty();
+
+        let pdfs = [];
+        try {
+            // A adapter selon le nom exact de ton attribut dans la BD (ex: pdfs, pdf_files, documents)
+            pdfs = (typeof article.pdfs === 'string') ? JSON.parse(article.pdfs) : (article.pdfs || []);
+        } catch(e) { console.error('Erreur parsing PDFs', e); }
+
+        if (pdfs && pdfs.length > 0) {
+            let pdfHtml = '<p class="mb-2"><strong>PDF(s) actuellement joint(s) :</strong></p><ul class="list-unstyled">';
+
+            pdfs.forEach(function(pdfFilePath) {
+                // Ajuster le chemin selon la structure (par ex: /storage/...)
+                let fileUrl = pdfFilePath.includes('storage') ?  pdfFilePath : '/storage/' + pdfFilePath;
+                // let fileUrl = pdfFilePath;
+
+                pdfHtml += '<li class="mb-2">';
+                pdfHtml += '  <a href="' + fileUrl + '" target="_blank" class="btn btn-sm btn-outline-danger">';
+                pdfHtml += '    <i class="fa fa-file-pdf"></i> Voir le document';
+                pdfHtml += '  </a>';
+                pdfHtml += '</li>';
+            });
+
+            pdfHtml += '</ul>';
+            $('#current_pdfs_container').html(pdfHtml);
+        } else {
+            $('#current_pdfs_container').html('<span class="text-muted"><i class="fa fa-info-circle"></i> Aucun PDF rattaché à cet article.</span>');
+        }
+
     }
 
 
