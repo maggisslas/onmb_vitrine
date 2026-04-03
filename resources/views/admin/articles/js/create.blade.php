@@ -19,7 +19,6 @@
 
         // Récupération des données du formulaire
         var formData = new FormData(this);
-        formData.set('post', encodeURIComponent(formData.get('post')));
         console.log(formData)
 
         $('#createBtnForm').attr('disabled' , 'disabled')
@@ -33,6 +32,8 @@
             processData: false,  // **Ne pas traiter les données (important pour FormData)**
             contentType: false,  // **Ne pas définir le type de contenu (important pour FormData)**
             success: function(response) {
+
+
 
                 if (response.success) {
 
@@ -52,7 +53,7 @@
             },
             error: function(err) {
 
-                console.log("STATUS:", err.status);
+                 console.log("STATUS:", err.status);
                 console.log("RESPONSE:", err.responseText);
 
                 if (err.status === 422) { // Laravel retourne 422 pour les erreurs de validation
