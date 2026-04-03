@@ -244,7 +244,7 @@ class ArticleController extends Controller
             $data = [
                 'title' => $request->title,
                 'description' => $request->description,
-                'post' => $request->post,
+                'post' => base64_decode($request->post),
                 'category_id' => $request->category_id,
                 'user_id' => Auth::id()
             ];

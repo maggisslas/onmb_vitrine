@@ -25,7 +25,7 @@
                 btoa(unescape(encodeURIComponent(formData.get('post'))))
             );
         }
-        console.log(formData)
+        // console.log(formData)
 
         $('#createBtnForm').attr('disabled' , 'disabled')
         $('#createBtnForm').html('<i class="fa fa-spin fa-spinner"></i> Enregistrer')
