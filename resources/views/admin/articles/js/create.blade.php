@@ -31,6 +31,9 @@
             data: formData,
             processData: false,  // **Ne pas traiter les données (important pour FormData)**
             contentType: false,  // **Ne pas définir le type de contenu (important pour FormData)**
+            headers: {
+                'X-Requested-With': 'XMLHttpRequest'
+            },
             success: function(response) {
 
 
