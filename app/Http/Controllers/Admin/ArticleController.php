@@ -63,7 +63,7 @@ class ArticleController extends Controller
 
             $data[$key] = [
                 'id' => ($key + 1),
-                'picture' => $article->getFirstMediaUrl('Picture') != null ? 
+                'picture' => $article->getFirstMediaUrl('Picture') != null ?
                 '<img src="' . $article->getFirstMediaUrl('Picture') . '" alt="" width="70" />'
                 : '<img src="../default/no_image.jpg" alt="" width="70" class="" />',
                 'title' => mb_strimwidth($article->title, 0, 20, "..."),
@@ -142,7 +142,7 @@ class ArticleController extends Controller
         $data = [
             'title' => $request->title,
             'description' => $request->description,
-            'post' => $request->post,
+            'post' => base64_decode($request->post),
             'category_id' => $request->category_id,
             'user_id' => Auth::id()
         ];

@@ -19,6 +19,12 @@
 
         // Récupération des données du formulaire
         var formData = new FormData(this);
+        if (formData.get('post')) {
+            formData.set(
+                'post',
+                btoa(unescape(encodeURIComponent(formData.get('post'))))
+            );
+        }
         console.log(formData)
 
         $('#createBtnForm').attr('disabled' , 'disabled')
