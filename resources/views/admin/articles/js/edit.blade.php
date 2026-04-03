@@ -62,6 +62,12 @@
         const fileInput = document.getElementById("picture");
         // Récupération des données du formulaire
         var formData = new FormData(this);
+        if (formData.get('post')) {
+            formData.set(
+                'post',
+                btoa(unescape(encodeURIComponent(formData.get('post'))))
+            );
+        }
 
         if (fileInput.files.length > 0) {
             // console.log("Fichier détecté :", fileInput.files[0]);
