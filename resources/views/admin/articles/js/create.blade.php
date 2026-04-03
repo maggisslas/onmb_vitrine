@@ -19,7 +19,12 @@
 
         // Récupération des données du formulaire
         var formData = new FormData(this);
-        formData.set('post', encodeURIComponent(formData.get('post')));
+        if (formData.get('post')) {
+            formData.set(
+                'post',
+                btoa(unescape(encodeURIComponent(formData.get('post'))))
+            );
+        }
         console.log(formData)
 
         $('#createBtnForm').attr('disabled' , 'disabled')
@@ -32,7 +37,12 @@
             data: formData,
             processData: false,  // **Ne pas traiter les données (important pour FormData)**
             contentType: false,  // **Ne pas définir le type de contenu (important pour FormData)**
+            headers: {
+                'X-Requested-With': 'XMLHttpRequest'
+            },
             success: function(response) {
+
+
 
                 if (response.success) {
 
@@ -52,7 +62,7 @@
             },
             error: function(err) {
 
-                console.log("STATUS:", err.status);
+                 console.log("STATUS:", err.status);
                 console.log("RESPONSE:", err.responseText);
 
                 if (err.status === 422) { // Laravel retourne 422 pour les erreurs de validation
