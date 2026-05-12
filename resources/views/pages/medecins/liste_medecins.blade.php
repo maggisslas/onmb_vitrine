@@ -1,5 +1,5 @@
 @php
-    $title_page = intval($type) == 0 ? 'Tableau des médécins' : 'Tableau des médécins à jours'
+    $title_page = intval($type) == 0 ? 'Tableau des médécins' : 'Tableau des médécins à jours au 31 mars 2026'
 @endphp
 
 @extends('layouts.master')
