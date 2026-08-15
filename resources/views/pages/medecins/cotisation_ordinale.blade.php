@@ -30,7 +30,7 @@
                 <div class="col-lg-7 col-md-8">
                     <div class="title-area text-center">
                         <p>
-                            Les frais d’inscription à l’ONMB (25.000 FCFA) et les cotisations annuelles (24.000 FCFA) peuvent être payés suivant 5 méthodes. Quelque soit la méthode choisie, conservez la preuve du paiement (reçu, capture d’écran) que vous enverrez au secrétariat de l’ONMB à l’adresse mail ''onmb1973_2006@yahoo.fr'' ou par Whatsapp au +229 94 96 81 81.
+                            Les frais d’inscription à l’ONMB sont à 25.000 FCFA et les cotisations annuelles à 24.000 FCFA payable sur la plateforme de l'ONMB.
                         </p>
                     </div>
                 </div>

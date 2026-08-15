@@ -31,7 +31,7 @@
                     <ul class="sub-menu">
                         <li><a href="{{ route('ordre.presentation') }}" class="{{ Route::currentRouteName() == 'ordre.presentation' ? 'active' : '' }}">Présentation</a></li>
                         <li><a href="{{ route('ordre.fonctionnement') }}" class="{{ Route::currentRouteName() == 'ordre.fonctionnement' ? 'active' : '' }}">Fonctionnement</a></li>
-                        <li><a href="{{ route('ordre.conseil_national') }}" class="{{ Route::currentRouteName() == 'ordre.conseil_national' ? 'active' : '' }}">Le conseil nationnal</a></li>
+                        <li><a href="{{ route('ordre.conseil_national') }}" class="{{ Route::currentRouteName() == 'ordre.conseil_national' ? 'active' : '' }}">Le conseil national</a></li>
                         <li><a href="{{ route('ordre.conseil_departemental') }}" class="{{ Route::currentRouteName() == 'ordre.conseil_departemental' ? 'active' : '' }}">Le conseil départemental</a></li>
                         <li><a href="{{ route('ordre.code_deontologie') }}" class="{{ Route::currentRouteName() == 'ordre.code_deontologie' ? 'active' : '' }}">Le code de déontologie</a></li>
                         <li><a href="{{ route('ordre.actes_autorisations') }}" class="{{ Route::currentRouteName() == 'ordre.actes_autorisations' ? 'active' : '' }}">Actes & Autorisations</a></li>
@@ -40,7 +40,7 @@
                 </li>
                 <li class="menu-item-has-children">
                     <a href="#"
-                        class="{{ request()->is('*medecins*') ? 'active' : '' }}">Médécins</a>
+                        class="{{ request()->is('*medecins*') ? 'active' : '' }}">Médecins</a>
                     <ul class="sub-menu">
                         <li><a href="{{ route('medecins.liste_medecins') }}" class="{{ Route::currentRouteName() == 'medecins.liste_medecins' && !request()->has('type') ? 'active' : '' }}">Tableau des médécins</a></li>
                         <li><a href="{{ route('medecins.liste_medecins' , ['type' => true]) }}" class="{{ Route::currentRouteName() == 'medecins.liste_medecins' && request()->get('type') === "1" ? 'active' : '' }}">Tableau des médécins à jours</a></li>
@@ -67,9 +67,9 @@
 
                     </ul>
                 </li>
-                <li>
-                    <a href="{{ route('publications.annonces.liste_electeurs') }}" class="{{ Route::currentRouteName() == 'publications.annonces.liste_electeurs' ? 'active' : '' }}">Liste des electeurs</a>
-                </li>
+                <!--<li>-->
+                <!--    <a href="{{ route('publications.annonces.liste_electeurs') }}" class="{{ Route::currentRouteName() == 'publications.annonces.liste_electeurs' ? 'active' : '' }}">Liste des électeurs</a>-->
+                <!--</li>-->
                 <li>
                     <a href="{{ route('contact') }}" class="{{ Route::currentRouteName() == 'contact' ? 'active' : '' }}">Contact</a>
                 </li>
@@ -113,7 +113,7 @@
                                     <ul class="sub-menu">
                                         <li><a href="{{ route('ordre.presentation') }}" class="{{ Route::currentRouteName() == 'ordre.presentation' ? 'active' : '' }}">Présentation</a></li>
                                         <li><a href="{{ route('ordre.fonctionnement') }}" class="{{ Route::currentRouteName() == 'ordre.fonctionnement' ? 'active' : '' }}">Fonctionnement</a></li>
-                                        <li><a href="{{ route('ordre.conseil_national') }}" class="{{ Route::currentRouteName() == 'ordre.conseil_national' ? 'active' : '' }}">Le conseil nationnal</a></li>
+                                        <li><a href="{{ route('ordre.conseil_national') }}" class="{{ Route::currentRouteName() == 'ordre.conseil_national' ? 'active' : '' }}">Le conseil national</a></li>
                                         <li><a href="{{ route('ordre.conseil_departemental') }}" class="{{ Route::currentRouteName() == 'ordre.conseil_departemental' ? 'active' : '' }}">Le conseil départemental</a></li>
                                         <li><a href="{{ route('ordre.code_deontologie') }}" class="{{ Route::currentRouteName() == 'ordre.code_deontologie' ? 'active' : '' }}">Le code de déontologie</a></li>
                                         <li><a href="{{ route('ordre.actes_autorisations') }}" class="{{ Route::currentRouteName() == 'ordre.actes_autorisations' ? 'active' : '' }}">Actes & Autorisations</a></li>
@@ -122,10 +122,10 @@
                                 </li>
                                 <li class="menu-item-has-children">
                                     <a href="#"
-                                        class="{{ request()->is('*medecins*') ? 'active' : '' }}">Médécins</a>
+                                        class="{{ request()->is('*medecins*') ? 'active' : '' }}">Médecins</a>
                                     <ul class="sub-menu">
-                                        <li><a href="{{ route('medecins.liste_medecins') }}" class="{{ Route::currentRouteName() == 'medecins.liste_medecins' && (isset($type) && $type == '0') ? 'active' : '' }}">Tableau des médécins</a></li>
-                                        <li><a href="{{ route('medecins.liste_medecins' , ['type' => true]) }}" class="{{ Route::currentRouteName() == 'medecins.liste_medecins' && (isset($type) && $type == '1') ? 'active' : '' }}">Tableau des médécins à jours</a></li>
+                                        <li><a href="{{ route('medecins.liste_medecins') }}" class="{{ Route::currentRouteName() == 'medecins.liste_medecins' && (isset($type) && $type == '0') ? 'active' : '' }}">Tableau des médecins</a></li>
+                                        <li><a href="{{ route('medecins.liste_medecins' , ['type' => true]) }}" class="{{ Route::currentRouteName() == 'medecins.liste_medecins' && (isset($type) && $type == '1') ? 'active' : '' }}">Tableau des médecins à jours</a></li>
                                         {{-- @dd(isset($type)) --}}
                                         <li><a href="{{ route('medecins.cotisation_ordinale') }}" class="{{ Route::currentRouteName() == 'medecins.cotisation_ordinale' ? 'active' : '' }}">Cotisation ordinale</a></li>
                                         <li><a href="{{ route('medecins.offres_emploie') }}" class="{{ Route::currentRouteName() == 'medecins.offres_emploie' ? 'active' : '' }}">Offre d'emploi</a></li>
@@ -149,9 +149,9 @@
 
                                     </ul>
                                 </li>
-                                <li>
-                                    <a href="{{ route('publications.annonces.liste_electeurs') }}" class="{{ Route::currentRouteName() == 'publications.annonces.liste_electeurs' ? 'active' : '' }}">Liste des electeurs</a>
-                                </li>
+                                <!--<li>-->
+                                <!--    <a href="{{ route('publications.annonces.liste_electeurs') }}" class="{{ Route::currentRouteName() == 'publications.annonces.liste_electeurs' ? 'active' : '' }}">Liste des électeurs</a>-->
+                                <!--</li>-->
                                 <li>
                                     <a href="{{ route('contact') }}" class="{{ Route::currentRouteName() == 'contact' ? 'active' : '' }}">Contact</a>
                                 </li>

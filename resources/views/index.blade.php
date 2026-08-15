@@ -7,10 +7,11 @@
 @section('style')
     <style>
         .testi-box-img::after{
-            content:"Dr Abou ADEGBINDIN\A Président de l'Ordre National des Médecins du Bénin.";
+            content:"Dr Boro Kamel Séro LAFIA\A Président du Conseil National de l'Ordre National des Médecins du Bénin";
             white-space: pre;
             text-align:center;
             color: white;
+            font-size: 15px;
             mix-blend-mode: normal;
         }
 
@@ -22,6 +23,10 @@
                 order: 1 !important;
             }
         }
+        #teamSlider1 .swiper-wrapper {
+    justify-content: center;
+    display: flex;
+}
     </style>
 @endsection
 
@@ -39,7 +44,7 @@
                             <div class="hero-style5">
                                 <h1 class="hero-title">
                                     <span class="title1" data-ani="slideinup" data-ani-delay="0.3s">
-                                        L'Ordre National  <br> des Médécins du Bénin
+                                        L'Ordre National  <br> des Médecins du Bénin
                                     </span>
                                 </h1>
                             </div>
@@ -64,7 +69,7 @@
                         <div class="swiper th-slider testi-box-thumb" id="testiSlideImg" data-slider-options='{"effect":"fade","spaceBetween":0}'>
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="assets/img/team/new-president-ONMB.jpg" alt="Image">
+                                    <img src="assets/img/team/ONMB_PR.jpeg" alt="Image">
                                 </div>
                                 {{-- <div class="swiper-slide">
                                     <img src="assets/img/testimonial/testi_2_2.jpg" alt="Image">
@@ -161,12 +166,12 @@
                         <div class="about-info">
                             <h3 class="box-title">ONMB</h3>
                             <p class="box-text">
-                                Ordre National des Médécins du Bénin.
+                                Ordre National des Médecins du Bénin.
                             </p>
                             <div class="box-review">
                                 <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
                             </div>
-                            <a href="tel:+16356478965" class="box-link"><i class="fa-solid fa-phone"></i> +229 94 96 81 81</a>
+                            <a href="tel:+16356478965" class="box-link"><i class="fa-solid fa-phone"></i> +229 01 94 96 81 81</a>
                         </div>
                     </div>
                 </div>
@@ -357,12 +362,7 @@
                     <p class="box-text text-white">Secrétaire Général</p>
                 </div>
                 <div class="divider"></div>
-                <div class="counter-card">
-                    <h2 class="box-number">
-                        <span class="number"><span class="counter-number text-white">1</span></span>
-                    </h2>
-                    <p class="box-text text-white">Trésorier Général</p>
-                </div>
+                
             </div>
         </div>
     </div>
@@ -375,48 +375,40 @@
                     Découvrez l'hiérarchie première de l'ordre
                 </h2>
             </div>
-            <div class="swiper th-slider has-shadow" id="teamSlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"4"}}}'>
-                <div class="swiper-wrapper">
-                    <!-- Single Item -->
-                    <div class="swiper-slide">
-                        <div class="th-team team-card">
-                            <div class="box-img">
-                                <img src="assets/img/onmb/Pr-ONMB.jpg" alt="Team">
-                            </div>
-                            <h3 class="box-title"><a href="team-details.html">Dr Abou ADEGBINDIN</a></h3>
-                            <span class="team-desig">Président</span>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="th-team team-card">
-                            <div class="box-img">
-                                <img src="assets/img/onmb/vp-ONMB.jpg" alt="Team">
-                            </div>
-                            <h3 class="box-title"><a href="team-details.html">Dr Josiane Houansou</a></h3>
-                            <span class="team-desig">Vice-Président</span>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="th-team team-card">
-                            <div class="box-img">
-                                <img src="assets/img/onmb/SG-ONMB.jpg" alt="Team">
-                            </div>
-                            <h3 class="box-title"><a href="team-details.html">Dr Iguémal ADJAHOTO</a></h3>
-                            <span class="team-desig">Secrétaire Général</span>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="th-team team-card">
-                            <div class="box-img">
-                                <img src="assets/img/onmb/TG-ONMB.jpg" alt="Team">
-                            </div>
-                            <h3 class="box-title"><a href="team-details.html">Dr Solange KANMADOZO</a></h3>
-                            <span class="team-desig">Trésorière Générale</span>
-                        </div>
-                    </div>
+            <div class="swiper th-slider has-shadow" id="teamSlider1" 
+     <div class="swiper th-slider has-shadow" id="teamSlider1" 
+     data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"3"}}}'>
+    <div class="swiper-wrapper">
+        <!-- Single Item -->
+        <div class="swiper-slide">
+            <div class="th-team team-card">
+                <div class="box-img">
+                    <img src="assets/img/onmb/ONMB_PR.jpeg" alt="Team">
+                </div>
+                <h3 class="box-title"><a href="team-details.html">Dr Boro Kamel Séro LAFIA</a></h3>
+                <span class="team-desig">Président</span>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="th-team team-card">
+                <div class="box-img">
+                    <img src="assets/img/onmb/CN_ONMB (7).jpeg" alt="Team">
+                </div>
+                <h3 class="box-title"><a href="team-details.html">Dr Ablo Prudence WACHINOU</a></h3>
+                <span class="team-desig">Vice-Président</span>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="th-team team-card">
+                <div class="box-img">
+                    <img src="assets/img/onmb/CN_ONMB (5).jpeg" alt="Team">
+                </div>
+                <h3 class="box-title"><a href="team-details.html">Dr Gloria Joyce HOUNMENOU</a></h3>
+                <span class="team-desig">Secrétaire Générale</span>
+            </div>
+        </div>
+    </div>
+</div>
 
                 </div>
             </div>

@@ -25,8 +25,8 @@
     <section class="bg-top-center space-top pb-5" id="team-sec">
         <div class="container z-index-common">
             <div class="title-area text-center">
-                <h4 class="sec-title">
-                    Découvrez tous les présidents de l'ONMB depuis sa création
+                <h4 class="sec-title" style="text-transform:none;">
+                    Découvrez tous les Présidents de l'ONMB depuis sa création
                 </h4>
             </div>
             <div class="has-shadow">
@@ -80,6 +80,16 @@
                             </div>
                             <h3 class="box-title"><a href="javascript:void(0)">Docteur Francis M. DOSSOU</a></h3>
                             <span class="team-desig">Président 2018 - 2022</span>
+                        </div>
+                    </div>
+                    
+                    <div class="col-xl-3 col-lg-4 col-sm-6">
+                        <div class="th-team team-card">
+                            <div class="box-img">
+                                <img src="assets/img/onmb/Pr-ONMB.jpg" alt="Team">
+                            </div>
+                            <h3 class="box-title"><a href="javascript:void(0)">Docteur Abou ADEGBINDIN </a></h3>
+                            <span class="team-desig">Président 2022 - 2026</span>
                         </div>
                     </div>
 

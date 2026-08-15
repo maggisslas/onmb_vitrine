@@ -25,8 +25,8 @@
     <section class="bg-top-center space-top pb-5" id="team-sec">
         <div class="container z-index-common">
             <div class="title-area text-center">
-                <h4 class="sec-title">
-                    Découvrez les membres de notre conseil national installé depuis le 20 juin 2018
+                <h4 class="sec-title" style="text-transform: none;">
+                    Découvrez les membres du Conseil National installé lundi 22 juin 2026
                 </h4>
             </div>
             <div class="has-shadow">
@@ -36,9 +36,9 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6">
                         <div class="th-team team-card">
                             <div class="box-img">
-                                <img src="assets/img/onmb/Pr-ONMB.jpg" alt="Team">
+                                <img src="assets/img/onmb/ONMB_PR.jpeg" alt="Team">
                             </div>
-                            <h3 class="box-title"><a href="javascript:void(0)">Dr Abou ADEGBINDIN</a></h3>
+                            <h3 class="box-title">Dr Boro Kamel Séro LAFIA</h3>
                             <span class="team-desig">Président</span>
                         </div>
                     </div>
@@ -48,9 +48,9 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6">
                         <div class="th-team team-card">
                             <div class="box-img">
-                                <img src="assets/img/onmb/vp-ONMB.jpg" alt="Team">
+                                <img src="assets/img/onmb/CN_ONMB (7).jpeg" alt="Team">
                             </div>
-                            <h3 class="box-title"><a href="javascript:void(0)">Dr Josiane Houansou</a></h3>
+                            <h3 class="box-title">Dr Ablo Prudence WACHINOU</h3>
                             <span class="team-desig">Vice-Président</span>
                         </div>
                     </div>
@@ -59,10 +59,10 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6">
                         <div class="th-team team-card">
                             <div class="box-img">
-                                <img src="assets/img/onmb/SG-ONMB.jpg" alt="Team">
+                                <img src="assets/img/onmb/CN_ONMB (5).jpeg" alt="Team">
                             </div>
-                            <h3 class="box-title"><a href="javascript:void(0)">Dr Iguémal ADJAHOTO</a></h3>
-                            <span class="team-desig">Secrétaire Général</span>
+                            <h3 class="box-title">Dr Gloria Joyce HOUNMENOU</h3>
+                            <span class="team-desig">Secrétaire Générale</span>
                         </div>
                     </div>
 
@@ -70,10 +70,10 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6">
                         <div class="th-team team-card">
                             <div class="box-img">
-                                <img src="assets/img/onmb/TG-ONMB.jpg" alt="Team">
+                                <img src="assets/img/onmb/CN_ONMB (1).jpeg" alt="Team">
                             </div>
-                            <h3 class="box-title"><a href="javascript:void(0)">Dr Solange KANMADOZO</a></h3>
-                            <span class="team-desig">Trésorière Générale</span>
+                            <h3 class="box-title">Dr Zoulkanéri ALASSANE</h3>
+                            <span class="team-desig">Membre</span>
                         </div>
                     </div>
 
@@ -82,9 +82,9 @@
                 <div class="col-xl-3 col-lg-4 col-sm-6">
                         <div class="th-team team-card">
                             <div class="box-img">
-                                <img src="assets/img/onmb/Kiki_onmb.jpg" alt="Team">
+                                <img src="assets/img/onmb/CN_ONMB (2).jpeg" alt="Team">
                             </div>
-                            <h3 class="box-title"><a href="javascript:void(0)">Dr KIKI MIGAN Eric</a></h3>
+                            <h3 class="box-title">Dr Abdoul-Nassif SIME DEGUIRI CHABI YO</h3>
                             <span class="team-desig">Membre</span>
                         </div>
                     </div>
@@ -93,9 +93,9 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6">
                         <div class="th-team team-card">
                             <div class="box-img">
-                                <img src="assets/img/onmb/LAFIA-BORO-Kamel.jpg" alt="Team">
+                                <img src="assets/img/onmb/CN_ONMB (3).jpeg" alt="Team">
                             </div>
-                            <h3 class="box-title"><a href="javascript:void(0)">Dr LAFIA BORO Kamel</a></h3>
+                            <h3 class="box-title">Dr Cossi Cyrille KPANGON</h3>
                             <span class="team-desig">Membre</span>
                         </div>
                     </div>
@@ -104,9 +104,9 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6">
                         <div class="th-team team-card">
                             <div class="box-img">
-                                <img src="assets/img/onmb/Alexis_onmb.jpg" alt="Team">
+                                <img src="assets/img/onmb/CN_ONMB (4).jpeg" alt="Team">
                             </div>
-                            <h3 class="box-title"><a href="javascript:void(0)">Dr TCHEVOEDE Yémalin Alexis</a></h3>
+                            <h3 class="box-title">Dr Razacki MOUSTAPHA</h3>
                             <span class="team-desig">Membre</span>
                         </div>
                     </div>
@@ -115,9 +115,9 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6">
                         <div class="th-team team-card">
                             <div class="box-img">
-                                <img src="assets/img/onmb/Boris_onmb.jpg" alt="Team">
+                                <img src="assets/img/onmb/CN_ONMB (6).jpeg" alt="Team">
                             </div>
-                            <h3 class="box-title"><a href="javascript:void(0)">Dr DAGBOZOUNKOU Boris</a></h3>
+                            <h3 class="box-title">Dr Dossi Yabo Marie-Reine ADANLIN</h3>
                             <span class="team-desig">Membre</span>
                         </div>
                     </div>
@@ -126,12 +126,14 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6">
                         <div class="th-team team-card">
                             <div class="box-img">
-                                <img src="assets/img/onmb/Pr.-Angelo.jpg" alt="Team">
+                                <img src="assets/img/onmb/CN_ONMB (9).jpeg" alt="Team">
                             </div>
-                            <h3 class="box-title"><a href="javascript:void(0)">Pr. Cossi Angelo ATTINSOUNON</a></h3>
+                            <h3 class="box-title">Dr Dominique Honoré SAKA</h3>
                             <span class="team-desig">Membre</span>
                         </div>
                     </div>
+                    
+                    
 
                 </div>
             </div>

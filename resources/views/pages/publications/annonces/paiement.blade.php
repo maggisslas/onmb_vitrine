@@ -160,6 +160,13 @@
                                             <p>
                                                 Renseignez ensuite le <strong>numéro de téléphone</strong> mobile à partir duquel le montant sera prélevé.
                                             </p>
+                                            
+                                            <p>
+                                                Le paiement par Mobile Money nécessite une validation effectuée depuis le territoire. Si vous n'êtes pas actuellement au Bénin, vous pouvez demander à un proche ou à un parent qui s'y trouve de confirmer l'opération pour vous.
+
+En cas de difficulté, n'hésitez pas à nous contacter. Nous restons à votre disposition pour vous accompagner.
+
+                                            </p>
                                         </div>
                                         <div class="col-xl-6">
                                             <div class="img-box3">

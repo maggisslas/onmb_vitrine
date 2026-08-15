@@ -18,15 +18,15 @@
                                 </div>
                                 <p class="footer-info">
                                     <i class="fal fa-location-dot"></i>
-                                    Gbedjewin (Akpakpa, ruelle de Green horse hôtel) – Cotonou, BENIN
+                                    Gbedjewin (Akpakpa, ruelle de Green house hôtel) – Cotonou, BENIN
                                 </p>
                                 <p class="footer-info">
                                     <i class="fal fa-envelope"></i>
-                                    <a href="mailto:onmb1973_2006@yahoo.fr" class="info-box_link">onmb1973_2006@yahoo.fr</a>
+                                    <a href="mailto:secretariat@ordremedecinsbenin.bj" class="info-box_link">secretariat@ordremedecinsbenin.bj</a>
                                 </p>
                                 <p class="footer-info">
                                     <i class="fal fa-phone"></i>
-                                    <a href="tel:+22994968181" class="info-box_link">+(229) 94 96 81 81</a>
+                                    <a href="tel:+2290194968181" class="info-box_link">+(229) 01 94 96 81 81</a>
                                 </p>
                             </div>
                         </div>
@@ -39,7 +39,7 @@
                                     <li><a href="{{ route('ordre.presentation') }}">Qui sommes-nous ?</a></li>
                                     <li><a href="{{ route('ordre.presentation').'#vision' }}">Notre Vision</a></li>
                                     {{-- <li><a href="service.html">Nos Valeurs</a></li> --}}
-                                    <li><a href="{{ route('contact') }}">Contactez-nous</a></li>
+                                    <li><a href="{{ route('contact') }}">Contacter-nous</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -51,7 +51,7 @@
                                 <ul class="menu">
                                     <li><a href="javascript:void(0)">Conditions générales d’utilisation</a></li>
                                     <li><a href="javascript:void(0)">Politique d’utilisation des données</a></li>
-                                    <li><a href="javascript:void(0)">Plan du site</a></li>
+                                    <!--<li><a href="javascript:void(0)">Plan du site</a></li>-->
                                 </ul>
                             </div>
                         </div>

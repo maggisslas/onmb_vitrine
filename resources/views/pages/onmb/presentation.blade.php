@@ -40,7 +40,7 @@
                             <div class="box-review">
                                 <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
                             </div>
-                            <a href="tel:+16356478965" class="box-link"><i class="fa-solid fa-phone"></i> +229 94 96 81 81</a>
+                            <a href="tel:+16356478965" class="box-link"><i class="fa-solid fa-phone"></i> +229 01 94 96 81 81</a>
                         </div>
                     </div>
                 </div>
@@ -118,11 +118,19 @@
                         </div>
                         <div class="box-content">
                             <h3 class="box-title"><a href="service-details.html">Présentation</a></h3>
+                            
                             <p class="box-text">
                                 Institué par ordonnance N° 73-38 du 21 avril 1973 portant création et
                                 organisation des ordres nationaux des médecins, pharmaciens, des chirurgiens -dentistes
                                 et des sages-femmes, l'Ordre National des Médecins Bénin (ONMB) est l'institution
                                 réglementaire et disciplinaire de la profession médicale.
+                            </p>
+                            
+                            
+                            
+                            
+                            <p class="box-text">
+                                Révisé par le Décret N° 2025 - 395 du 16 Juillet 2025 portant attributions, organisation et fonctionnement de l'Ordre national des Médecin du Bénin.
                             </p>
                             <p class="box-text">
                                 L'ONMB veille au maintien des principes de moralité, de probité et de dévouement
@@ -253,8 +261,8 @@
                                 <ul>
                                     <li>Président</li>
                                     <li>Vice-président</li>
-                                    <li>Sécrétaire Général</li>
-                                    <li>Trésorier Général</li>
+                                    <li>Sécrétaire Générale</li>
+                                    <!--<li>Trésorier Général</li>-->
                                 </ul>
                                 <p>
                                     Le président représente l'ordre dans tous les actes de la vie civile et peut déléguer
@@ -411,15 +419,10 @@
                     <h2 class="box-number">
                         <span class="number"><span class="counter-number text-white">1</span></span>
                     </h2>
-                    <p class="box-text text-white">Secrétaire Général</p>
+                    <p class="box-text text-white">Secrétaire Générale</p>
                 </div>
                 <div class="divider"></div>
-                <div class="counter-card">
-                    <h2 class="box-number">
-                        <span class="number"><span class="counter-number text-white">1</span></span>
-                    </h2>
-                    <p class="box-text text-white">Trésorier Général</p>
-                </div>
+                
             </div>
         </div>
     </div>

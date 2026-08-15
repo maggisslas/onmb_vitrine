@@ -1,5 +1,5 @@
 @php
-    $title_page = "Offres d'emploie"
+    $title_page = "Offres d'emploi"
 @endphp
 
 @extends('layouts.master')
@@ -22,7 +22,7 @@
     ])
 
     <p class="text-center py-5">
-        Aucune offre d'emploie pour le moment.
+        Aucune offre d'emploi pour le moment.
     </p>
 
 @endsection

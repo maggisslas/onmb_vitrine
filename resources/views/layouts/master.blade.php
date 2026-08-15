@@ -5,10 +5,10 @@
     <base href="/">
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Ordre National des Médécins du Bénin - @yield('title')</title>
+    <title>Ordre National des Médecins du Bénin - @yield('title')</title>
     <meta name="author" content="ONMB">
-    <meta name="description" content="ONMB - Ordre National des Médécins du Bénin">
-    <meta name="keywords" content="ONMB - Ordre National des Médécins du Bénin">
+    <meta name="description" content="ONMB - Ordre National des Médecins du Bénin">
+    <meta name="keywords" content="ONMB - Ordre National des Médecins du Bénin">
     <meta name="robots" content="INDEX,FOLLOW">
 
     <!-- Mobile Specific Metas -->

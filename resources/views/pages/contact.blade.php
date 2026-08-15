@@ -1,5 +1,5 @@
 @php
-    $title_page = 'Contactez-nous'
+    $title_page = 'Contacter-nous'
 @endphp
 
 @extends('layouts.master')
@@ -28,47 +28,47 @@
     {{-- Liste des mails --}}
     <div class="space">
         <div class="container">
-            <div class="row gy-4">
+            <!--<div class="row gy-4">-->
 
-                <div class="col-12">
-                    <div class="contact-feature">
-                        <div class="media-body">
-                            <h3 class="box-title">Adresses des conseillers nationaux</h3>
-                            <strong>Président : </strong><a href="mailto:adegbindinabou@ordremedecinsbenin.bj">adegbindinabou@ordremedecinsbenin.bj</a>
-                            <strong>Vice-Président : </strong><a href="mailto:houansoujosiane@ordremedecinsbenin.bj">houansoujosiane@ordremedecinsbenin.bj</a>
-                            <strong>Secrétaire : </strong><a href="mailto:iguemal@ordremedecinsbenin.bj">iguemal@ordremedecinsbenin.bj</a>
-                            <strong>Trésorier : </strong><a href="mailto:kanmadozosolange@ordremedecinsbenin.bj">kanmadozosolange@ordremedecinsbenin.bj</a>
-                            <strong>Membre : </strong><a href="mailto:kikimigan@ordremedecinsbenin.bj">kikimigan@ordremedecinsbenin.bj</a>
-                            <strong>Membre : </strong><a href="mailto:dagbozounkouboris@ordremedecinsbenin.bj">dagbozounkouboris@ordremedecinsbenin.bj</a>
-                            <strong>Membre : </strong><a href="mailto:attinsounonangelo@ordremedecinsbenin.bj">attinsounonangelo@ordremedecinsbenin.bj</a>
-                            <strong>Membre : </strong><a href="mailto:lafiakamel@ordremedecinsbenin.bj">lafiakamel@ordremedecinsbenin.bj</a>
-                            <strong>Membre : </strong><a href="mailto:tchalexis@ordremedecinsbenin.bj">tchalexis@ordremedecinsbenin.bj</a>
-                            <strong>Membre : </strong><a href="mailto:angeloattinsounon@ordremedecinsbenin.bj">angeloattinsounon@ordremedecinsbenin.bj</a>
-                        </div>
-                    </div>
-                </div>
+            <!--    <div class="col-12">-->
+            <!--        <div class="contact-feature">-->
+            <!--            <div class="media-body">-->
+            <!--                <h3 class="box-title">Adresses des conseillers nationaux</h3>-->
+            <!--                <strong>Président : </strong><a href="mailto:adegbindinabou@ordremedecinsbenin.bj">adegbindinabou@ordremedecinsbenin.bj</a> </br>-->
+            <!--                <strong>Vice-Président : </strong><a href="mailto:houansoujosiane@ordremedecinsbenin.bj">houansoujosiane@ordremedecinsbenin.bj</a> </br>-->
+            <!--                <strong>Secrétaire : </strong><a href="mailto:iguemal@ordremedecinsbenin.bj">iguemal@ordremedecinsbenin.bj</a> </br>-->
+            <!--                <strong>Trésorier : </strong><a href="mailto:kanmadozosolange@ordremedecinsbenin.bj">kanmadozosolange@ordremedecinsbenin.bj</a> </br>-->
+            <!--                <strong>Membre : </strong><a href="mailto:kikimigan@ordremedecinsbenin.bj">kikimigan@ordremedecinsbenin.bj</a> </br>-->
+            <!--                <strong>Membre : </strong><a href="mailto:dagbozounkouboris@ordremedecinsbenin.bj">dagbozounkouboris@ordremedecinsbenin.bj</a> </br>-->
+            <!--                <strong>Membre : </strong><a href="mailto:attinsounonangelo@ordremedecinsbenin.bj">attinsounonangelo@ordremedecinsbenin.bj</a> </br>-->
+            <!--                <strong>Membre : </strong><a href="mailto:lafiakamel@ordremedecinsbenin.bj">lafiakamel@ordremedecinsbenin.bj</a> </br>-->
+            <!--                <strong>Membre : </strong><a href="mailto:tchalexis@ordremedecinsbenin.bj">tchalexis@ordremedecinsbenin.bj</a> </br>-->
+            <!--                <strong>Membre : </strong><a href="mailto:angeloattinsounon@ordremedecinsbenin.bj">angeloattinsounon@ordremedecinsbenin.bj</a>-->
+            <!--            </div>-->
+            <!--        </div>-->
+            <!--    </div>-->
 
-                <div class="col-12">
-                    <div class="contact-feature">
-                        <div class="media-body">
-                            <h3 class="box-title">Mails Départementaux</h3>
-                            <strong>Alibori : </strong><a href="mailto:cdalibori@ordremedecinsbenin.bj">cdalibori@ordremedecinsbenin.bj</a>
-                            <strong>Atacora : </strong><a href="mailto:cdatacora@ordremedecinsbenin.bj">cdatacora@ordremedecinsbenin.bj</a>
-                            <strong>Atlantique : </strong><a href="mailto:cdatlantique@ordremedecinsbenin.bj">cdatlantique@ordremedecinsbenin.bj</a>
-                            <strong>Borgou : </strong><a href="mailto:cdborgou@ordremedecinsbenin.bj">cdborgou@ordremedecinsbenin.bj</a>
-                            <strong>Colline : </strong><a href="mailto:cdcolline@ordremedecinsbenin.bj">cdcolline@ordremedecinsbenin.bj</a>
-                            <strong>Couffo : </strong><a href="mailto:cdcouffou@ordremedecinsbenin.bj">cdcouffou@ordremedecinsbenin.bj</a>
-                            <strong>Donga : </strong><a href="mailto:cddonga@ordremedecinsbenin.bj">cddonga@ordremedecinsbenin.bj</a>
-                            <strong>Littoral : </strong><a href="mailto:cdlittoral@ordremedecinsbenin.bj">cdlittoral@ordremedecinsbenin.bj</a>
-                            <strong>Mono : </strong><a href="mailto:cdmono@ordremedecinsbenin.bj">cdmono@ordremedecinsbenin.bj</a>
-                            <strong>Ouémé : </strong><a href="mailto:cdoueme@ordremedecinsbenin.bj">cdoueme@ordremedecinsbenin.bj</a>
-                            <strong>Plateau : </strong><a href="mailto:cdplateau@ordremedecinsbenin.bj">cdplateau@ordremedecinsbenin.bj</a>
-                            <strong>Zou : </strong><a href="mailto:cdzou@ordremedecinsbenin.bj">cdzou@ordremedecinsbenin.bj</a>
-                        </div>
-                    </div>
-                </div>
+            <!--    <div class="col-12">-->
+            <!--        <div class="contact-feature">-->
+            <!--            <div class="media-body">-->
+            <!--                <h3 class="box-title">Mails Départementaux</h3>-->
+            <!--                <strong>Alibori : </strong><a href="mailto:cdalibori@ordremedecinsbenin.bj">cdalibori@ordremedecinsbenin.bj</a> </br>-->
+            <!--                <strong>Atacora : </strong><a href="mailto:cdatacora@ordremedecinsbenin.bj">cdatacora@ordremedecinsbenin.bj</a> </br>-->
+            <!--                <strong>Atlantique : </strong><a href="mailto:cdatlantique@ordremedecinsbenin.bj">cdatlantique@ordremedecinsbenin.bj</a> </br>-->
+            <!--                <strong>Borgou : </strong><a href="mailto:cdborgou@ordremedecinsbenin.bj">cdborgou@ordremedecinsbenin.bj</a> </br>-->
+            <!--                <strong>Colline : </strong><a href="mailto:cdcolline@ordremedecinsbenin.bj">cdcolline@ordremedecinsbenin.bj</a> </br>-->
+            <!--                <strong>Couffo : </strong><a href="mailto:cdcouffou@ordremedecinsbenin.bj">cdcouffou@ordremedecinsbenin.bj</a> </br>-->
+            <!--                <strong>Donga : </strong><a href="mailto:cddonga@ordremedecinsbenin.bj">cddonga@ordremedecinsbenin.bj</a> </br>-->
+            <!--                <strong>Littoral : </strong><a href="mailto:cdlittoral@ordremedecinsbenin.bj">cdlittoral@ordremedecinsbenin.bj</a> </br>-->
+            <!--                <strong>Mono : </strong><a href="mailto:cdmono@ordremedecinsbenin.bj">cdmono@ordremedecinsbenin.bj</a> </br>-->
+            <!--                <strong>Ouémé : </strong><a href="mailto:cdoueme@ordremedecinsbenin.bj">cdoueme@ordremedecinsbenin.bj</a> </br>-->
+            <!--                <strong>Plateau : </strong><a href="mailto:cdplateau@ordremedecinsbenin.bj">cdplateau@ordremedecinsbenin.bj</a> </br>-->
+            <!--                <strong>Zou : </strong><a href="mailto:cdzou@ordremedecinsbenin.bj">cdzou@ordremedecinsbenin.bj</a>-->
+            <!--            </div>-->
+            <!--        </div>-->
+            <!--    </div>-->
 
-            </div>
+            <!--</div>-->
         </div>
     </div>
 
